@@ -4,13 +4,62 @@
   <title><![CDATA[Kian的自留地]]></title>
   <link href="http://kianli.com/atom.xml" rel="self"/>
   <link href="http://kianli.com/"/>
-  <updated>2015-10-14T16:14:27+08:00</updated>
+  <updated>2015-10-15T15:59:10+08:00</updated>
   <id>http://kianli.com/</id>
   <author>
     <name><![CDATA[]]></name>
     
   </author>
   <generator uri="http://www.mweb.im/">MWeb</generator>
+  
+  <entry>
+    <title type="html"><![CDATA[Vultr日本服务器VPS配置笔记]]></title>
+    <link href="http://kianli.com/14448725947322.html"/>
+    <updated>2015-10-15T09:29:54+08:00</updated>
+    <id>http://kianli.com/14448725947322.html</id>
+    <content type="html"><![CDATA[
+<h2 id="toc_0">为什么写这篇笔记</h2>
+
+<blockquote>
+<p>之前看到<a href="http://bao3.org">bao3</a>大哥在博客里发布了一篇<a href="http://bao3.org/2015/08/16/%E5%9C%A8-Vultr%E4%B8%8A%E5%AE%89%E8%A3%85-Arch-linux/">在 Vultr上安装 Arch linux</a>的文章。<br/>
+在<a href="http://bao3.org">bao3</a>大哥的帮助下，完成了服务器的配置。几天使用下来，感觉非常不错。对于我来说Vultr的优势在于价格实惠，速度快，最重要的是提供snapshot功能，也就是说配置成功一台服务器，就可以克隆配置到新的服务器里。按照<a href="http://bao3.org">bao3</a>大哥的提示，选择了日本ip的服务器，选择日本服务器的原因很简单，因为日本ip可以让你能够访问一些限定日本ip的网站。<br/>
+<a href="http://bao3.org">bao3</a>大哥<a href="http://bao3.org/2015/08/16/%E5%9C%A8-Vultr%E4%B8%8A%E5%AE%89%E8%A3%85-Arch-linux/">在 Vultr上安装 Arch linux</a>一文中已经有了非常详细的步骤指引，但是对于像我这种技术渣来说，如果每一个步骤都变成傻瓜的形态应该是更好的。所以也就有了这一篇文章</p>
+</blockquote>
+
+<h2 id="toc_1">准备工作</h2>
+
+<blockquote>
+<p>1: Paypal帐号注册 </p>
+
+<blockquote>
+<p>参考：<a href="http://www.extrabux.com/blog/2013/12/checkout-paypal/">如何注册Paypal帐号并关联银联信用卡</a>一文</p>
+</blockquote>
+
+<p>2: ArchLinux的iso镜像:</p>
+
+<blockquote>
+<p>参考:<a href="http://bao3.org/2015/08/16/%E5%9C%A8-Vultr%E4%B8%8A%E5%AE%89%E8%A3%85-Arch-linux/">在 Vultr上安装 Arch linux</a>一<a href="http://bao3.org/2015/08/16/%E5%9C%A8-Vultr%E4%B8%8A%E5%AE%89%E8%A3%85-Arch-linux/">在 Vultr上安装 Arch linux</a>文中给出的镜像地址:</p>
+
+<p><code>http://ftp.jaist.ac.jp/pub/Linux/ArchLinux/iso/2015.08.01/archlinux-2015.08.01-dual.iso</code></p>
+</blockquote>
+</blockquote>
+
+<span id="more"></span><!-- more -->
+
+<h2 id="toc_2">Vultr帐号的注册</h2>
+
+<blockquote>
+<p>1: 注册Vultr:</p>
+
+<blockquote>
+<p>建议可以使用我的邀请注册链接来注册使用（双方获利 $$ ）<a href="http://www.vultr.com/?ref=6854006">我的Vultr邀请注册链接</a></p>
+</blockquote>
+
+<p>2: 具体步骤 <a href="http://bao3.org/2015/08/16/%E5%9C%A8-Vultr%E4%B8%8A%E5%AE%89%E8%A3%85-Arch-linux/">整理中,目前可以参考Bao3博客里的文章</a></p>
+</blockquote>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[2015年10月电影推荐]]></title>
