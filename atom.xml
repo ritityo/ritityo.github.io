@@ -4,13 +4,115 @@
   <title><![CDATA[Kian的自留地]]></title>
   <link href="http://kianli.com/atom.xml" rel="self"/>
   <link href="http://kianli.com/"/>
-  <updated>2015-10-15T16:18:41+08:00</updated>
+  <updated>2015-10-16T00:47:51+08:00</updated>
   <id>http://kianli.com/</id>
   <author>
     <name><![CDATA[]]></name>
     
   </author>
   <generator uri="http://www.mweb.im/">MWeb</generator>
+  
+  <entry>
+    <title type="html"><![CDATA[双十一优惠券自动领取]]></title>
+    <link href="http://kianli.com/14449259432185.html"/>
+    <updated>2015-10-16T00:19:03+08:00</updated>
+    <id>http://kianli.com/14449259432185.html</id>
+    <content type="html"><![CDATA[
+<p>双十一就要到了 淘宝也开始了各种预热活动，<a href="www.tmall.com">天猫</a>上也开始了提前抢购／券的活动，参与商家不少，优惠券有划算的，但是估计数量不多。因为这点，就会出现一个问题：</p>
+
+<blockquote>
+<p><mark>手动抢太浪费时间了</mark></p>
+
+<blockquote>
+<p><img src="media/14449259432185/Snip20151016_5.png" alt="Snip20151016_5"/></p>
+</blockquote>
+
+<p><mark>应该有办法帮助我们自动抢的</mark></p>
+
+<blockquote>
+<p><img src="media/14449259432185/Snip20151016_4.png" alt="Snip20151016_4"/></p>
+</blockquote>
+</blockquote>
+
+<span id="more"></span><!-- more -->
+
+<p>如果你的电脑上有Chrome浏览器/Chrome内核的浏览器：比如QQ浏览器／360极速版浏览器</p>
+
+<blockquote>
+<p><img src="media/14449259432185/Snip20151016_6.png" alt="Snip20151016_6"/><br/>
+<a href="http://liulanmi.com/browser">更多关于浏览器的知识</a></p>
+</blockquote>
+
+<p>你需要：<br/>
+1. 登录天猫双十一抢券页面：<a href="http://www.tmall.com/wow/act/14931/1111">http://www.tmall.com/wow/act/14931/1111</a><br/>
+2. 打开你的浏览器的Console模式</p>
+
+<blockquote>
+<p>Window平台相关浏览器：</p>
+
+<blockquote>
+<p>control+shift+J</p>
+</blockquote>
+
+<p>Mac上Chrome谷歌浏览器</p>
+
+<blockquote>
+<p>command+option+J</p>
+</blockquote>
+</blockquote>
+
+<p>截图是Mac上的Chrome浏览器开启Console模式之后的界面：</p>
+
+<blockquote>
+<p><img src="media/14449259432185/Snip20151016_7.png" alt="Snip20151016_7"/></p>
+</blockquote>
+
+<p>直接复制下面这些代码：</p>
+
+<p>(function(window, document, undefined) {<br/>
+    var interval = 800;<br/>
+    var closeDelay = 200;<br/>
+    var index = 0;<br/>
+    var couponLinks;<br/>
+    var getCoupon = function() {<br/>
+        if (index &gt;= couponLinks.length) {<br/>
+            console.log(<q>领取完毕</q>);<br/>
+            return;<br/>
+        }<br/>
+        var coponLink = couponLinks[index];<br/>
+        coponLink.click(); index++;<br/>
+        console.log(<q>领取 第</q> + index + <q>张</q>);<br/>
+        setTimeout(getCoupon, interval);<br/>
+        setTimeout(function() {<br/>
+            var close = document.querySelector(&#39;.mui-dialog-close&#39;);<br/>
+            if (close != null) close.click();<br/><br/>
+        }, closeDelay);<br/>
+    }<br/>
+    var _scrollTop = 0;<br/>
+    var _scrollStep = document.documentElement.clientHeight;<br/>
+    var _maxScrollTop = document.body.clientHeight - document.documentElement.clientHeight;<br/>
+    var autoScrollDown = setInterval(function() {<br/>
+        _scrollTop += <u>scrollStep;<br/>
+        if (</u>scrollTop &gt; _maxScrollTop) {<br/>
+            clearInterval(autoScrollDown);<br/>
+            couponLinks = document.querySelectorAll(&#39;.mui-act-item-yhqbtn&#39;);<br/>
+            console.log(<q>总共：</q> + couponLinks.length + <q>条张优惠券待领取...</q>);<br/>
+            getCoupon();<br/>
+        } else {<br/>
+            document.body.scrollTop = _scrollTop;<br/>
+        }<br/>
+    }, 500);<br/>
+}) (window, document);</p>
+
+<blockquote>
+<p>输入完成之后回车即可，接下来抢券的任务就可以放心交给代码来完成了。<br/>
+如果你想多抢一些券来备战双十一的话，可以刷新抢券页面继续使用代码来抢券。</p>
+</blockquote>
+
+<p><mark>优惠券再多，也不一定能买到自己真正需要的东西</mark></p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Vultr日本服务器VPS配置笔记]]></title>
