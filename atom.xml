@@ -4,13 +4,129 @@
   <title><![CDATA[Kian的自留地]]></title>
   <link href="http://kianli.com/atom.xml" rel="self"/>
   <link href="http://kianli.com/"/>
-  <updated>2015-10-22T00:12:00+08:00</updated>
+  <updated>2015-10-27T15:55:29+08:00</updated>
   <id>http://kianli.com/</id>
   <author>
     <name><![CDATA[]]></name>
     
   </author>
   <generator uri="http://www.mweb.im/">MWeb</generator>
+  
+  <entry>
+    <title type="html"><![CDATA[Surge: 可能是iOS用户最需要的调试工具]]></title>
+    <link href="http://kianli.com/14459569074725.html"/>
+    <updated>2015-10-27T22:41:47+08:00</updated>
+    <id>http://kianli.com/14459569074725.html</id>
+    <content type="html"><![CDATA[
+<p><img src="http://ww4.sinaimg.cn/large/621370d5gw1exgr42eb5ej215k0i0di2.jpg" alt="Store"/></p>
+
+<p>请允许我用一首歌表达下Surge给我的网络访问带来的变化，以及为什么我会向朋友们推荐这款应用：</p>
+
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="http://music.163.com/outchain/player?type=2&id=3164310&auto=1&height=32"></iframe>
+
+<h2 id="toc_0">这是什么软件？</h2>
+
+<p>这是一款刚刚上线的基于 iOS 9 的新特性 Network Extension 开发的网络调试工具，较适用于开发人员，可以从 iOS 9 设备上的任何应用程序里捕获所有 HTTP / HTTPS/ TCP 流量，并重定向到一个 HTTP/ HTTPS/ SOCKS5 代理服务器上，需要一定的使用经验。<br/>
+简而言之，这款应用是可以帮你调试你的网络的一个app, 通过这款软件你可以实现想上的网站可以上，不想看到的东西也可以不再来烦你。</p>
+
+<p><mark>需要你有一定的动手能力</mark></p>
+
+<p>这款软件目前售价是人民币68元<br/>
+<a href="https://itunes.apple.com/us/app/surge-web-developer-tool-proxy/id1040100637?mt=8&amp;uo=8&amp;at=1000l7mq">美区</a>  |  <a href="https://itunes.apple.com/cn/app/surge-web-developer-tool-proxy/id1040100637?mt=8&amp;uo=8&amp;at=1000l7mq">中国区</a> </p>
+
+<h4 id="toc_1">有破解版吗？</h4>
+
+<p>没有且希望不会有......</p>
+
+<span id="more"></span><!-- more -->
+
+<h2 id="toc_2">如何配置这款应用？</h2>
+
+<p><mark>Surge不是一款傻瓜软件 需要自行调教</mark> </p>
+
+<p>这些文章是官方的说明档：</p>
+
+<ul>
+<li class="task-list-item"><input type="checkbox" checked /> <a href="https://medium.com/@scomper/surge-%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6-a1533c10e80b#.gcsmm6w4l">官方新手使用指南</a>
+</li>
+<li class="task-list-item"><input type="checkbox" checked /> <a href="http://surge.run/manual/">官方手册 英文</a>
+</li>
+</ul>
+
+<p><mark>因为比较敏感，可能官方说明里找不到我们需要的东西</mark></p>
+
+<p>这里就直白粗暴地介绍下：</p>
+
+<ul>
+<li class="task-list-item"><input type="checkbox" checked /> 买好Surge这款应用：<a href="https://itunes.apple.com/us/app/surge-web-developer-tool-proxy/id1040100637?mt=8&amp;uo=8&amp;at=1000l7mq">美区</a>  |  <a href="https://itunes.apple.com/cn/app/surge-web-developer-tool-proxy/id1040100637?mt=8&amp;uo=8&amp;at=1000l7mq">中国区</a><br/>
+</li>
+<li class="task-list-item"><input type="checkbox" checked /> 你拥有SSH账号，推荐使用<a href="https://bandwagonhost.com/aff.php?aff=5317">搬瓦工</a> 关于搬瓦工可以参考文末附的题外话
+</li>
+<li class="task-list-item"><input type="checkbox" checked /> 配置文件和SSencrypt.module文件的网址
+</li>
+</ul>
+
+<h4 id="toc_3">配置文件完全可以使用网友分享的版本</h4>
+
+<blockquote>
+<ol>
+<li><p><a href="https://gist.github.com/jason5ng32/648597df6ca7da5aeb41">jason5ng32分享的配置</a></p></li>
+<li><p><a href="https://gist.github.com/janlay/b57476c72a93b7e622a6">janlay分享的配置</a></p></li>
+<li><p><a href="http://proxy.sofi.sh/">fisio分享的配置</a></p></li>
+</ol>
+</blockquote>
+
+<h4 id="toc_4">SSEncrypt.module文件</h4>
+
+<p>这个是我们通过Surge搭配SSH进行网络调试里的重中之重，因为众所周知的原因，作者没有在应用里默认支持sha・dow・so・cks, 所以我们需要通过自己把这个内容写在Surge的配置里告诉软件要通过SSH访问网络。<br/>
+目前网上公开的一些SSEncrypt.module文件的地址我收集了这么两个：</p>
+
+<blockquote>
+<p><a href="http://abclite.cn/SSEncrypt.module">http://abclite.cn/SSEncrypt.module</a><br/>
+<a href="http://www.bi4sqm.com/SSEncrypt.module">http://www.bi4sqm.com/SSEncrypt.module</a></p>
+</blockquote>
+
+<p>截图步骤来看：<br/>
+1.打开应用,创建配置(<mark>New Empty Configuration</mark>)</p>
+
+<blockquote>
+<p><img src="http://ww1.sinaimg.cn/large/621370d5gw1exgsnmljp5j20ku1120wi.jpg" alt="1bu"/></p>
+</blockquote>
+
+<p>2.用文本编辑的方式(<mark>Edit in Text Mode</mark>)</p>
+
+<blockquote>
+<p><img src="http://ww1.sinaimg.cn/large/621370d5gw1exgsqpqjspj20jz0zkab4.jpg" alt="3bu"/></p>
+</blockquote>
+
+<p>3.全选默认配置并删除 复制三个网友分享版配置的任何一个到文本编辑器里去</p>
+
+<blockquote>
+<p><img src="http://ww2.sinaimg.cn/large/621370d5gw1exgstu5x6wj20jz0zkwfa.jpg" alt="2bu"/></p>
+</blockquote>
+
+<p>4.在[Proxy]字段里编辑：</p>
+
+<p><code>Proxy = custom, ==你的SSH服务器地址==, ==端口==, ==加密方法,比如rc4-md5等==, ==你的密码==,http://abclite.cn/SSEncrypt.module</code></p>
+
+<p><mark>效果图</mark>：</p>
+
+<blockquote>
+<p><img src="http://ww1.sinaimg.cn/large/621370d5gw1exgt21tcv1j20k00zk0wt.jpg" alt="效果图"/></p>
+</blockquote>
+
+<h3 id="toc_5">关于搬瓦工的题外话</h3>
+
+<blockquote>
+<p>1: 欢迎大家通过我的<a href="https://bandwagonhost.com/aff.php?aff=5317">推荐注册链接</a> 进行注册</p>
+
+<p>2: 目前推荐大家购买这个服务器，因为便宜的都被买光了 <img src="http://ww2.sinaimg.cn/large/621370d5gw1exgrxuhpm6j20r00coabk.jpg" alt="this"/></p>
+
+<p>3: 关于完整的购买和注册以及shadowsocks的部署可以看<a href="http://jingyan.baidu.com/article/00a07f3842e53982d128dc7d.html">这篇百度经验</a></p>
+</blockquote>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[SSAT考试作弊风波]]></title>
