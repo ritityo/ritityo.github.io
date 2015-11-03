@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
     
-  Vultr日本服务器VPS配置笔记 - Kian的自留地
+  适合新手的Markdown编辑器 - Kian的自留地
   
   </title>
   
@@ -90,14 +90,14 @@
       <div class="markdown-body article-wrap">
        <div class="article">
           
-          <h1>Vultr日本服务器VPS配置笔记</h1>
+          <h1>适合新手的Markdown编辑器</h1>
      
         <div class="read-more clearfix">
-          <span class="date">2015/10/15</span>
+          <span class="date">2015/11/3</span>
 
           <span>posted in&nbsp;</span> 
           
-              <span class="posted-in"><a href='%E5%88%86%E4%BA%AB.html'>分享</a></span>
+              <span class="posted-in"><a href='%E8%AE%B0%E5%BD%95.html'>记录</a></span>
            
          
           <span class="comments">
@@ -110,45 +110,52 @@
       </div><!-- article -->
 
       <div class="article-content">
-      <h2 id="toc_0">为什么写这篇笔记</h2>
+      <p>作为Google Reader时代可能吧文章的忠实读者，昨天和<a href="https://zh.wikipedia.org/wiki/%E4%BC%8D%E5%98%89%E8%B4%A4">阿<del>婵</del>禅</a>在Telegram上竟然聊上了几句！注意，此处我如此激动的原因非常简单：<a href="https://zh.wikipedia.org/wiki/%E4%BC%8D%E5%98%89%E8%B4%A4">阿禅</a>是在<a href="https://zh.wikipedia.org/wiki/%E4%BC%8D%E5%98%89%E8%B4%A4">维基百科</a>上是有<del>自己编的</del>个人词条的。在<del>吹嘘拍马</del>用心聊天时，说到非常喜欢可能吧的文章排版非常喜欢，自己第一次看到Markdown写出来的博客的时候，第一反应是：这是可能吧排版的黑白版吧。</p>
+
+<p><mark>用图说话</mark></p>
 
 <blockquote>
-<p>之前看到<a href="http://bao3.org">bao3</a>大哥在博客里发布了一篇<a href="http://bao3.org/2015/08/16/%E5%9C%A8-Vultr%E4%B8%8A%E5%AE%89%E8%A3%85-Arch-linux/">在 Vultr上安装 Arch linux</a>的文章。<br/>
-在<a href="http://bao3.org">bao3</a>大哥的帮助下，完成了服务器的配置。几天使用下来，感觉非常不错。对于我来说Vultr的优势在于价格实惠，速度快，最重要的是提供snapshot功能，也就是说配置成功一台服务器，就可以克隆配置到新的服务器里。按照<a href="http://bao3.org">bao3</a>大哥的提示，选择了日本ip的服务器，选择日本服务器的原因很简单，因为日本ip可以让你能够访问一些限定日本ip的网站。<br/>
-<a href="http://bao3.org">bao3</a>大哥<a href="http://bao3.org/2015/08/16/%E5%9C%A8-Vultr%E4%B8%8A%E5%AE%89%E8%A3%85-Arch-linux/">在 Vultr上安装 Arch linux</a>一文中已经有了非常详细的步骤指引，但是对于像我这种技术渣来说，如果每一个步骤都变成傻瓜的形态应该是更好的。所以也就有了这一篇文章</p>
+<p><img src="http://ww1.sinaimg.cn/large/621370d5gw1exnrrl3mnxj20xu0l20zq.jpg" alt="可能吧文章截图"/> </p>
 </blockquote>
 
-<h2 id="toc_1">准备工作</h2>
+<p>在<del>谈笑风声</del><mark>马屁拍到尴尬</mark>之后就开始放Google搜索，找了一圈，也<del>试用</del><mark>安装再卸载</mark>了好一些软件，最后留下的就是一款叫做Haroopad的Markdown编辑软件。这边感谢推荐这款Haroopad Windows版的<a href="http://www.huashengke.org/2015/03/02/markdownnotes/">花生壳</a> 经过使用，Haroopad的Mac版也非常堪用。</p>
+
+<h2 id="toc_0">一些说明</h2>
 
 <blockquote>
-<p>1: Paypal帐号注册 </p>
-
-<blockquote>
-<p>参考：<a href="http://www.extrabux.com/blog/2013/12/checkout-paypal/">如何注册Paypal帐号并关联银联信用卡</a>一文</p>
+<p>我的Mac上因为之前自己白痴，找了网上的hexo教程，一个失败就直接换一个操作，导致系统混乱，连 <a href="http://bao3.org">Bao3</a>也摊手了。 之后在 <a href="http://bao3.org">Bao3</a>的 <del>帮助</del> <mark>代办下</mark>架设成功， <a href="http://bao3.org">Bao3</a>哥推荐了我使用<a href="http://zh.mweb.im/">MWeb Writer</a>，在他水银泻地一般地操作之后还顺带帮我写了个发布博客的小程序。虽然到最后我还是没有看懂，但是大概意思是通过<a href="http://zh.mweb.im/">MWeb Writer</a>写完，把MWeb Writer本地文件夹里的内容直接发布到github page上的形式完成。<a href="http://zh.mweb.im/">MWeb Writer</a>已经是一款非常优秀的Markdown编辑软件了，为什么还要找一款替代品？ 因为我<mark>不甘心</mark>，之后在Windows上配置成功Hexo, 开了个专门晒娃的博客。在断断续续地使用中意识到 hexo new post 这个命令指示生成md文件而已，但是里面的编辑还是需要自己敲对才行。</p>
 </blockquote>
 
-<p>2: ArchLinux的iso镜像:</p>
+<h2 id="toc_1">Haroopad</h2>
 
-<blockquote>
-<p>参考:<a href="http://bao3.org/2015/08/16/%E5%9C%A8-Vultr%E4%B8%8A%E5%AE%89%E8%A3%85-Arch-linux/">在 Vultr上安装 Arch linux</a>一<a href="http://bao3.org/2015/08/16/%E5%9C%A8-Vultr%E4%B8%8A%E5%AE%89%E8%A3%85-Arch-linux/">在 Vultr上安装 Arch linux</a>文中给出的镜像地址:</p>
+<h3 id="toc_2"><mark>界面</mark></h3>
 
-<p><code>http://ftp.jaist.ac.jp/pub/Linux/ArchLinux/iso/2015.08.01/archlinux-2015.08.01-dual.iso</code></p>
-</blockquote>
-</blockquote>
+<p><img src="http://ww2.sinaimg.cn/large/621370d5gw1exnquafmhpj20vk0jsjva.jpg" alt="HaroopadInterface"/></p>
 
 <span id="more"></span><!-- more -->
 
-<h2 id="toc_2">Vultr帐号的注册</h2>
+<h3 id="toc_3"><mark>推荐理由</mark></h3>
+
+<ul>
+<li class="task-list-item"><p><input type="checkbox" checked /> 实时预览: 支持实时预览对于新手，尤其是 <mark>代码无感型</mark> 来说是重大利好。</p>
 
 <blockquote>
-<p>1: 注册Vultr:</p>
+<p>我的博客是在 <a href="http://bao3.org">Bao3</a>的 <del>帮助</del> <mark>代办下</mark>架设成功的， <a href="http://bao3.org">Bao3</a>哥水银泻地一般地操作之后还顺带帮我写了个发布博客的小程序。虽然到最后我还是没有看懂，但是大概意思是通过<a href="http://zh.mweb.im/">MWeb Writer</a>写完，把MWeb Writer本地文件夹里的内容直接发布到github page上的形式完成。（我的Mac上因为之前自己白痴，找了网上的hexo教程，一个失败就直接换一个操作，导致系统混乱，连 <a href="http://bao3.org">Bao3</a>也摊手了。） <a href="http://zh.mweb.im/">MWeb Writer</a>有一个我不太适应的地方是每次换格式需要先空格再回车，而Haroopad相对而言更加个人适应 </p>
+</blockquote>
+</li>
+<li class="task-list-item"><p><input type="checkbox" checked /> Markdown基本语法规则可以通过界面左下角呼出，英文看懂就可以写。 </p>
 
 <blockquote>
-<p>建议可以使用我的邀请注册链接来注册使用（双方获利 $$ ）<a href="http://www.vultr.com/?ref=6854006">我的Vultr邀请注册链接</a></p>
+<p>这对于我来说就省去了查阅文档的苦恼了，当然还是要分享一下写作的语法说明给大家 <a href="https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf">Markdown语法说明</a> </p>
 </blockquote>
+</li>
+<li class="task-list-item"><p><input type="checkbox" checked /> Markdown的编辑软件各个平台(Windows/Mac/在线)都很丰富，就现在阶段来说，比较适合我的可能就是这款Haroopad了</p>
 
-<p>2: 具体步骤 <a href="http://bao3.org/2015/08/16/%E5%9C%A8-Vultr%E4%B8%8A%E5%AE%89%E8%A3%85-Arch-linux/">整理中,目前可以参考Bao3博客里的文章</a></p>
+<blockquote>
+<p>下载可以戳：<a href="http://pad.haroopress.com/user.html#download">http://pad.haroopress.com/user.html#download</a>   </p>
 </blockquote>
+</li>
+</ul>
 
       </div>
 
@@ -156,16 +163,13 @@
         <div class="large-6 columns">
         <p class="text-left" style="padding:15px 0px;">
       
-          <a href="14449259432185.html" 
-          title="Previous Post: 双十一优惠券自动领取">&laquo; 双十一优惠券自动领取</a>
-      
         </p>
         </div>
         <div class="large-6 columns">
       <p class="text-right" style="padding:15px 0px;">
       
-          <a  href="14447281375532.html" 
-          title="Next Post: 2015年10月电影推荐">2015年10月电影推荐 &raquo;</a>
+          <a  href="14460892401223.html" 
+          title="Next Post: 如何打造一枚NBA总冠军戒指？">如何打造一枚NBA总冠军戒指？ &raquo;</a>
       
       </p>
         </div>
