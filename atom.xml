@@ -4,13 +4,99 @@
   <title><![CDATA[Kian的自留地]]></title>
   <link href="http://kianli.com/atom.xml" rel="self"/>
   <link href="http://kianli.com/"/>
-  <updated>2016-01-09T14:54:25+08:00</updated>
+  <updated>2016-01-19T21:53:58+08:00</updated>
   <id>http://kianli.com/</id>
   <author>
     <name><![CDATA[]]></name>
     
   </author>
   <generator uri="http://www.mweb.im/">MWeb</generator>
+  
+  <entry>
+    <title type="html"><![CDATA[MJ壁纸记]]></title>
+    <link href="http://kianli.com/14531889430175.html"/>
+    <updated>2016-01-19T15:35:43+08:00</updated>
+    <id>http://kianli.com/14531889430175.html</id>
+    <content type="html"><![CDATA[
+<h2 id="toc_0">起因</h2>
+
+<p>偶然刷微博的时候发现一名屌炸天的职业插画师<a href="http://weibo.com/art3ye?from=feed&amp;loc=at&amp;nick=HYPER-3&amp;is_all=1">HYPER-3</a> ，他一直为NIKE、Umbro等著名品牌提供作品。<br/>
+在翻了一遍他的微博之后发现他在Instagram上也有更新:<a href="https://www.instagram.com/hyper_three/">hyper-three</a> </p>
+
+<p><img src="http://ww2.sinaimg.cn/large/621370d5gw1f0551z5yvyj20q80g5wix.jpg" alt="hyper3insta"/></p>
+
+<p>其中非常喜欢他画的那张<a href="https://www.instagram.com/p/BASh8djBzZV/">FLY</a></p>
+
+<p>Instagram原图：<br/>
+<img src="http://ww1.sinaimg.cn/large/621370d5gw1f04uf9zd3xj20rs0yqwtj.jpg" alt="原图"/></p>
+
+<p>随即回复表示愿意付费购买可以用做于iPhone 6 锁屏的该画</p>
+
+<span id="more"></span><!-- more -->
+
+<p><img src="http://ww3.sinaimg.cn/large/621370d5gw1f04ul7xgfnj20mv0gpwlr.jpg" alt="留言"/></p>
+
+<h2 id="toc_1">最初想法</h2>
+
+<p>在没有得到回复的情况下，只好开动脑筋处理了一下 </p>
+
+<p>原定想法是直接通过这张原图处理成锁屏</p>
+
+<h2 id="toc_2">解决方案</h2>
+
+<p>首先： 通过ifttt的规则，设定将自己在Instagram上点赞的图片自动同步到iPhone的图库</p>
+
+<blockquote>
+<p>此处需要手机可以翻墙并安装对应的iOS客户端 <br/>
+参考文章:<br/>
+1: <a href="http://kianli.com/14459569074725.html">Surge: 可能是iOS用户最需要的调试工具</a> <br/>
+2: <a href="http://www.zhihu.com/question/20770508">知乎:哪些IFTTT Recipe大大提高了你的工作效率</a></p>
+
+<h4 id="toc_3">问题</h4>
+
+<p>点赞之后这张原图就秒同步到了iPhone 6上，但是设置为壁纸之后一个问题来了，看截图：</p>
+</blockquote>
+
+<p><img src="http://ww3.sinaimg.cn/large/621370d5gw1f05515w2hpj20ku112gy0.jpg" alt="danglian"/></p>
+
+<p>锁屏界面里的时钟挡住了乔神的脸！这是不可以接受的。 iPhone 6的壁纸尺寸是1334x750, iPhone 6 Plus的尺寸是1920x1280 相信大家看原图都能发现这样的尺寸对于时钟挡住乔神的脸这个问题而言是无解的.... （除非你有psd文件）</p>
+
+<h2 id="toc_4">解决方案</h2>
+
+<p>那就继续想办法，有两个解决方案:</p>
+
+<blockquote>
+<p>1: 获取背景图<br/>
+2: 把乔神部分抠出来</p>
+</blockquote>
+
+<p>祭出Google之后没有找到背景里超级有腔调的乔丹鞋的黑白画，只有通过方法2了。方法2的操作实在是无法回首，心理阴影面积过大以致于无法计算。反正结果就是抠出来了.</p>
+
+<p>PNG图:</p>
+
+<blockquote>
+<p><img src="http://ww2.sinaimg.cn/large/621370d5gw1f0552n2zjuj20rs0yqq7r.jpg" alt="MJPNG"/></p>
+</blockquote>
+
+<p>网盘下载: <a href="http://vdisk.weibo.com/s/vaWV3QhP80GV">新浪微盘</a></p>
+
+<p>接下来就是要去找一张类似于<a href="http://weibo.com/art3ye?from=feed&amp;loc=at&amp;nick=HYPER-3&amp;is_all=1">HYPER-3</a>原图里AJ球鞋的黑白背景图了，这个时候你不能相信百度，果断Google之<br/>
+<img src="http://ww2.sinaimg.cn/large/621370d5gw1f0557rdnepj21hc0u0wor.jpg" alt="AJBG"/></p>
+
+<p>之后就是把PNG素材和背景融合不断调适</p>
+
+<blockquote>
+<p>1: iPhone 6分辨率锁屏时钟不挡脸版：<br/>
+<img src="http://ww3.sinaimg.cn/large/621370d5gw1f0558nv17gj20ku112jzz.jpg" alt="iPhone 6"/></p>
+
+<p>2: iPhone 6 Plus分辨率锁屏时钟不挡脸版:<br/>
+<img src="http://ww1.sinaimg.cn/large/621370d5gw1f055a2gc97j20u01hcduw.jpg" alt="iPhone6Plus"/></p>
+</blockquote>
+
+<p><code>中间省略了自己去找专业做广告设计的朋友帮忙的那一节，非常理解，抠图之后手都不属于自己了...</code></p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[我的微信2015]]></title>
