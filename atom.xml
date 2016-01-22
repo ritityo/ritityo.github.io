@@ -4,7 +4,7 @@
   <title><![CDATA[Kian的自留地]]></title>
   <link href="http://kianli.com/atom.xml" rel="self"/>
   <link href="http://kianli.com/"/>
-  <updated>2016-01-19T21:59:25+08:00</updated>
+  <updated>2016-01-21T23:14:34+08:00</updated>
   <id>http://kianli.com/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -96,6 +96,10 @@
 <p><mark>中间省略了自己去找专业做广告设计的朋友帮忙的那一节，非常理解，自己动手抠图之后手都不属于自己了。抠图真心不是技术活啊</mark></p>
 
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="http://music.163.com/outchain/player?type=2&id=18106634&auto=1&height=66"></iframe>
+
+<blockquote class="twitter-tweet" lang="en"><p lang="zh" dir="ltr">投票了！莓园是不是应该做一个年度水量统计？</p>&mdash; lioz (@lioz) <a href="https://twitter.com/lioz/status/690190388733288448">January 21, 2016</a></blockquote>
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ]]></content>
   </entry>
@@ -1384,11 +1388,11 @@ magnet:?xt=urn:btih:A6FB30E19A9D97D12DE88C05ABE0782DBCE5FCBF&amp;dn=cartel+land+
 
 <p>所以个人比较倾向于离线字典，在离线字典里比较推荐的是Mdcit这款软件</p>
 
-<blockquote>
-<p>关于Mdict <a href="http://mdict.cn/">官网介绍</a></p>
-</blockquote>
+<h2 id="toc_0">关于Mdict</h2>
 
-<p>理由一：（除WindowPhone之外）全平台制霸</p>
+<p><a href="http://mdict.cn/">官网介绍</a></p>
+
+<p>推荐理由一：（除WindowPhone之外）全平台制霸</p>
 
 <blockquote>
 <p><a href="http://itunes.apple.com/us/app/mdict/id389083586?mt=8">iOS</a><br/>
@@ -1398,7 +1402,7 @@ magnet:?xt=urn:btih:A6FB30E19A9D97D12DE88C05ABE0782DBCE5FCBF&amp;dn=cartel+land+
 <a href="http://www.eudic.net/">Mac | 欧路词典</a></p>
 </blockquote>
 
-<p>理由二：词库丰富</p>
+<p>推荐理由二：词库丰富</p>
 
 <blockquote>
 <p><a href="http://pan.baidu.com/share/link?shareid=547614417&amp;uk=2301975859">百度网盘</a></p>
@@ -1406,8 +1410,9 @@ magnet:?xt=urn:btih:A6FB30E19A9D97D12DE88C05ABE0782DBCE5FCBF&amp;dn=cartel+land+
 
 <span id="more"></span><!-- more --> 
 
-<p>词库同步方式：<br/>
-<mark>iOS</mark>:</p>
+<h2 id="toc_1">词库同步方式：</h2>
+
+<h3 id="toc_2"><mark>iOS</mark>:</h3>
 
 <p><img src="media/14447043290192/Snip20151013_1_meitu_1.jpg" alt="Snip20151013_1_meitu_1"/></p>
 
@@ -1416,12 +1421,21 @@ magnet:?xt=urn:btih:A6FB30E19A9D97D12DE88C05ABE0782DBCE5FCBF&amp;dn=cartel+land+
 <iframe frameborder="0" width="420" height="298" src="http://v.qq.com/iframe/player.html?vid=r0167g25obe&tiny=0&auto=0" allowfullscreen></iframe></p>
 </blockquote>
 
-<p><mark>android</mark>:<br/>
-建议使用airdroid</p>
+<h3 id="toc_3"><mark>android</mark>:</h3>
+
+<p>建议使用airdroid安装</p>
 
 <blockquote>
 <p><a href="https://play.google.com/store/apps/details?id=com.sand.airdroid&amp;hl=en">从Google Play下载</a><br/>
 <a href="http://coolapk.com/apk/com.sand.airdroid">从酷市场Coolapk下载</a></p>
+</blockquote>
+
+<p>android系统中，需要自行添加音标字体才可以正常显示音标</p>
+
+<blockquote>
+<p>1: <a href="http://pan.baidu.com/s/1nub3bN7">音标文件下载：</a> |  密码: kx2w<br/>
+2: <a href="http://pan.baidu.com/s/1i3UjHyd">本地发音词库:</a> | 密码: re8p<br/>
+3: <a href="http://pan.baidu.com/s/1getqmDd">推荐词库：柯林斯双解、词典四合一合辑</a> | 密码: fyy9</p>
 </blockquote>
 
 ]]></content>
