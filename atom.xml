@@ -4,7 +4,7 @@
   <title><![CDATA[Kian的自留地]]></title>
   <link href="http://kianli.com/atom.xml" rel="self"/>
   <link href="http://kianli.com/"/>
-  <updated>2016-01-21T23:14:34+08:00</updated>
+  <updated>2016-01-24T16:56:47+08:00</updated>
   <id>http://kianli.com/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -349,7 +349,8 @@
     <content type="html"><![CDATA[
 <p><img src="http://ww2.sinaimg.cn/large/621370d5gw1ezl0gm6dwxj20h80apq4t.jpg" alt="搬瓦工"/></p>
 
-<p><a href="https://bandwagonhost.com/aff.php?aff=5317">Bandwagonhost</a> 国内习惯称之为搬瓦工，美国IT7旗下的一款便宜年付VPS产品，因为价格便宜、稳定性好，得到不少的新用户和需要节省成本的用户喜欢，年付VPS最低3.99美元，拥有洛杉矶、凤凰城、佛罗里达、荷兰数据中心，而且可以任意切换机房达到随机更换IP的目的。</p>
+<p><a href="https://bandwagonhost.com/aff.php?aff=5317">Bandwagonhost</a> 国内习惯称之为搬瓦工，美国IT7旗下的一款便宜年付VPS产品，因为价格便宜、稳定性好，得到不少的新用户和需要节省成本的用户喜欢，年付VPS最低3.99美元，拥有洛杉矶、凤凰城、佛罗里达、荷兰数据中心，而且可以任意切换机房达到随机更换IP的目的。<br/>
+目前最为划算的套餐只有<code>Bandwagon 10G - PROMO</code> 年付仅需要19.99美元，直达链接在此: <a href="https://bandwagonhost.com/aff.php?aff=5317&amp;pid=12">Bandwagon 10G PROMO</a></p>
 
 <h2 id="toc_0">什么是VPS</h2>
 
@@ -357,18 +358,55 @@
 
 <span id="more"></span><!-- more -->
 
-<p><img src="http://ww4.sinaimg.cn/large/621370d5gw1ezl683o0usj20wf0gk41j.jpg" alt="福利"/></p>
+<h2 id="toc_1">图文教程：</h2>
 
-<p>因为划算和灵活性受到了大家的抢购，结果是：<br/>
+<h3 id="toc_2">注册账号</h3>
+
+<p>在新窗口中打开：<a href="https://bandwagonhost.com/aff.php?aff=5317">www.bandwagonhost.com</a><br/>
+<img src="http://ww4.sinaimg.cn/large/621370d5gw1f0ao60nnz8j20uf0gvjxi.jpg" alt="首页"/></p>
+
+<p>填入对应的信息<br/>
+<img src="http://ww1.sinaimg.cn/large/621370d5gw1f0ao8hlcrqg20o80dnglr.gif" alt="图示"/><br/>
+到此便完成了注册</p>
+
+<h3 id="toc_3">购买VPS</h3>
+
+<p>注册之后返回到首页<a href="https://bandwagonhost.com/aff.php?aff=5317">www.bandwagonhost.com</a> 直接通过首页上进行订购</p>
+
+<p><img src="http://ww1.sinaimg.cn/large/621370d5gw1f0aobuopfpj20va0ga44a.jpg" alt="首页购"/></p>
+
+<p>或者在后台中栏菜单选择<code>Services</code>下拉框，选择<code>Order New Services</code> 进行订购<br/>
+<img src="http://ww4.sinaimg.cn/large/621370d5gw1f0aoehytrnj20t00gx42k.jpg" alt="后台购"/></p>
+
+<p>因为划算和灵活性受到了大家的抢购，结果是目前大量套餐处于脱销的状态中：<br/>
 <img src="http://ww3.sinaimg.cn/large/621370d5gw1ezl18wesycj20q20cb40v.jpg" alt="脱销"/></p>
 
-<p>目前最为划算的套餐只有<code>Bandwagon 10G - PROMO</code> 年付为19.99美元 <br/>
-```直达链接:<br/>
-<img src="http://ww1.sinaimg.cn/large/621370d5gw1ezl156aduhj20rz0f10vs.jpg" alt="付费"/></p>
+<p>目前最为划算的套餐只有<code>Bandwagon 10G - PROMO</code> 年付仅需要19.99美元 <br/>
+大家可以通过在<code>Services</code> 页面中使用<code>ctrl键＋F键</code>呼出查询菜单，输入<code>bandwagon 10g</code>就可以快速定位到这个目前最优惠的套餐<br/>
+<img src="http://ww2.sinaimg.cn/large/621370d5gw1ezl6eitfcbj20vs0gptcd.jpg" alt=""/></p>
+
+<p>如果还是嫌烦的话，直达链接在此: <a href="https://bandwagonhost.com/aff.php?aff=5317&amp;pid=12">Bandwagon 10G PROMO</a></p>
+
+<p><img src="http://ww1.sinaimg.cn/large/621370d5gw1ezl156aduhj20rz0f10vs.jpg" alt="付费"/></p>
 
 <p><img src="http://ww3.sinaimg.cn/large/621370d5gw1ezl160yyrxj20s20ev419.jpg" alt="机房"/></p>
 
-<p><img src="http://ww2.sinaimg.cn/large/621370d5gw1ezl6eitfcbj20vs0gptcd.jpg" alt=""/></p>
+<p>付费的时候你会发现其实bandwagonhost是支持支付宝支付的<br/>
+<img src="http://ww1.sinaimg.cn/large/621370d5gw1f0aomwasvug20dw06ot8m.gif" alt="支付宝"/><br/>
+<img src="http://img.freehao123.com/wp-content/uploads/2015/07/bandwagonhost_06.gif" alt="zfb"/><br/>
+点击 <code>Pay Now</code> 即可</p>
+
+<p>当然bandwagonhost也是支持Paypal进行付款的：<br/>
+<img src="http://img.freehao123.com/wp-content/uploads/2015/07/bandwagonhost_07.gif" alt="pp"/></p>
+
+<h3 id="toc_4">搭建个人番羽土啬服务：</h3>
+
+<p>付款成功之后回到bandwagonhost, 还是点击中栏的<code>Services</code>呼出下拉框，点击<code>My Services</code> 点击<code>KiwiVM Control Panel</code> 进入后台<br/>
+<img src="http://ww3.sinaimg.cn/large/621370d5gw1f0aoqiwk8dj20s70ge41u.jpg" alt="99"/><br/>
+接下来按照下图所示点击即可，可以实现一键安装 :-)<br/>
+<img src="http://ww4.sinaimg.cn/large/621370d5gw1ezl683o0usj20wf0gk41j.jpg" alt="福利"/></p>
+
+<p>Enjoy!!</p>
 
 ]]></content>
   </entry>
