@@ -4,13 +4,24 @@
   <title><![CDATA[Kian的自留地]]></title>
   <link href="http://kianli.com/atom.xml" rel="self"/>
   <link href="http://kianli.com/"/>
-  <updated>2016-01-29T19:30:52+08:00</updated>
+  <updated>2016-01-30T21:44:51+08:00</updated>
   <id>http://kianli.com/</id>
   <author>
     <name><![CDATA[]]></name>
     
   </author>
   <generator uri="http://www.mweb.im/">MWeb</generator>
+  
+  <entry>
+    <title type="html"><![CDATA[MWeb七牛图床傻瓜教程]]></title>
+    <link href="http://kianli.com/14541613241854.html"/>
+    <updated>2016-01-30T21:42:04+08:00</updated>
+    <id>http://kianli.com/14541613241854.html</id>
+    <content type="html"><![CDATA[
+<p><img src="media/14541613241854/Snip20160130_6.png" alt="Snip20160130_6"/></p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[MJ壁纸记]]></title>
