@@ -4,13 +4,63 @@
   <title><![CDATA[Kian的自留地]]></title>
   <link href="http://kianli.com/atom.xml" rel="self"/>
   <link href="http://kianli.com/"/>
-  <updated>2016-02-29T16:42:04+08:00</updated>
+  <updated>2016-02-29T16:47:43+08:00</updated>
   <id>http://kianli.com/</id>
   <author>
     <name><![CDATA[]]></name>
     
   </author>
   <generator uri="http://www.mweb.im/">MWeb</generator>
+  
+  <entry>
+    <title type="html"><![CDATA[Shadowrocket for iOS: 可能是最值得你去花6元的iOS应用]]></title>
+    <link href="http://kianli.com/14571706954065.html"/>
+    <updated>2016-03-05T17:38:15+08:00</updated>
+    <id>http://kianli.com/14571706954065.html</id>
+    <content type="html"><![CDATA[
+<p><img src="http://7xqmgz.com1.z0.glb.clouddn.com/2016-03-05-747118_larger.png" alt="747118_large"/></p>
+
+<p><a href="https://itunes.apple.com/us/app/shadowrocket-for-shadowsocks/id932747118?mt=8">美区购买</a> | <a href="https://itunes.apple.com/cn/app/shadowrocket-for-shadowsocks/id932747118?mt=8">中国区购买</a></p>
+
+<p>软件开发者主页：<a href="http://liguangming.com/shadowrocket">http://liguangming.com/shadowrocket</a></p>
+
+<hr/>
+
+<h3 id="toc_0">前言</h3>
+
+<p>之前曾经推荐过一款叫做Surge的应用，文章可以参考</p>
+
+<blockquote>
+<p><a href="http://kianli.com/14459569074725.html">Surge: 可能是iOS用户最需要的调试工具</a></p>
+</blockquote>
+
+<p>但是Surge因为作者担心一些现实问题，在上架一段时间之后经历了中国区下架再到中国区再次上架以648元销售的风波，作者发出的说明也在twitter上众说纷纭</p>
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="zh" dir="ltr">surge这个定价是表明不仅“贫贱不能移”而且“贫贱不能翻”了是吗！之前不是说被下架吗！怎么价格提高了就通过审核了呢。 <a href="https://t.co/A6VT3ab2r8">pic.twitter.com/A6VT3ab2r8</a></p>&mdash; vicentory (@vicentory8) <a href="https://twitter.com/vicentory8/status/704204052121268224">February 29, 2016</a></blockquote>
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<span id="more"></span><!-- more -->
+
+<p>Surge作者的说明：<br/>
+<img src="http://ww1.sinaimg.cn/large/621370d5gw1f1m4t0mftvj20f30ggdi1.jpg" alt="说明"/></p>
+
+<p>如果你在淘宝手机客户端搜索Surge的话 不出意外，你也应该可以看到大量的盗版app销售者</p>
+
+<p><mark>那么，问题来了：我们还能以可以接受的价格体面地使用一款网络调试工具吗？</mark></p>
+
+<h3 id="toc_1">Shadowrocket for iOS</h3>
+
+<p><img src="http://7xqmgz.com1.z0.glb.clouddn.com/2016-03-05-screen1136x1136.jpeg" alt="screen1136x1136"/></p>
+
+<p><img src="http://7xqmgz.com1.z0.glb.clouddn.com/2016-03-05-screen1136x1136%20-1-.jpeg" alt="screen1136x1136 -1-"/></p>
+
+<p><img src="http://7xqmgz.com1.z0.glb.clouddn.com/2016-03-05-screen1136x1136%20-2-.jpeg" alt="screen1136x1136 -2-"/></p>
+
+<p><img src="http://7xqmgz.com1.z0.glb.clouddn.com/2016-03-05-screen1136x1136%20-3-.jpeg" alt="screen1136x1136 -3-"/></p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Polymail 试用]]></title>
@@ -1569,69 +1619,6 @@ magnet:?xt=urn:btih:77de3f449e3d2d08c26f03676a5df161e87756ec&amp;dn=Going.Clear.
 <blockquote>
 <p>磁力链接：<br/>
 magnet:?xt=urn:btih:A6FB30E19A9D97D12DE88C05ABE0782DBCE5FCBF&amp;dn=cartel+land+2015+hdrip+xvid+ac3+evo&amp;tr=http%3A%2F%2Ftracker.pubt.net%3A2710%2Fannounce&amp;tr=udp%3A%2F%2Fopen.demonii.com%3A1337</p>
-</blockquote>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[手机端词典应用推荐-Mdict]]></title>
-    <link href="http://kianli.com/14447043290192.html"/>
-    <updated>2015-10-13T10:45:29+08:00</updated>
-    <id>http://kianli.com/14447043290192.html</id>
-    <content type="html"><![CDATA[
-<p>现在大家都会在手机端上安装词典应用，平时里看到大家用的比较多的就是有道词典或者金山词霸了，但是这两个因为是基本的本地词库加上联网搜索进行单词的查询，所以会出现因为本地词库小／在线搜索出来的词义的偏差等引发的问题。</p>
-
-<p>所以个人比较倾向于离线字典，在离线字典里比较推荐的是Mdcit这款软件</p>
-
-<h2 id="toc_0">关于Mdict</h2>
-
-<p><a href="http://mdict.cn/">官网介绍</a></p>
-
-<p>推荐理由一：（除WindowPhone之外）全平台制霸</p>
-
-<blockquote>
-<p><a href="http://itunes.apple.com/us/app/mdict/id389083586?mt=8">iOS</a><br/>
-<a href="https://play.google.com/store/apps/details?id=cn.mdict">android | Google Play</a><br/>
-<a href="http://coolapk.com/apk/cn.mdict">android | coolapk</a><br/>
-<a href="http://mdict.cn/download.cn.htm#Win32">PC</a><br/>
-<a href="http://www.eudic.net/">Mac | 欧路词典</a></p>
-</blockquote>
-
-<p>推荐理由二：词库丰富</p>
-
-<blockquote>
-<p><a href="http://pan.baidu.com/share/link?shareid=547614417&amp;uk=2301975859">百度网盘</a></p>
-</blockquote>
-
-<span id="more"></span><!-- more --> 
-
-<h2 id="toc_1">词库同步方式：</h2>
-
-<h3 id="toc_2"><mark>iOS</mark>:</h3>
-
-<p><img src="media/14447043290192/Snip20151013_1_meitu_1.jpg" alt="Snip20151013_1_meitu_1"/></p>
-
-<blockquote>
-<p>视频<br/>
-<iframe frameborder="0" width="420" height="298" src="http://v.qq.com/iframe/player.html?vid=r0167g25obe&tiny=0&auto=0" allowfullscreen></iframe></p>
-</blockquote>
-
-<h3 id="toc_3"><mark>android</mark>:</h3>
-
-<p>建议使用airdroid安装</p>
-
-<blockquote>
-<p><a href="https://play.google.com/store/apps/details?id=com.sand.airdroid&amp;hl=en">从Google Play下载</a><br/>
-<a href="http://coolapk.com/apk/com.sand.airdroid">从酷市场Coolapk下载</a></p>
-</blockquote>
-
-<p>android系统中，需要自行添加音标字体才可以正常显示音标</p>
-
-<blockquote>
-<p>1: <a href="http://pan.baidu.com/s/1nub3bN7">音标文件下载：</a> |  密码: kx2w<br/>
-2: <a href="http://pan.baidu.com/s/1i3UjHyd">本地发音词库:</a> | 密码: re8p<br/>
-3: <a href="http://pan.baidu.com/s/1getqmDd">推荐词库：柯林斯双解、词典四合一合辑</a> | 密码: fyy9</p>
 </blockquote>
 
 ]]></content>
