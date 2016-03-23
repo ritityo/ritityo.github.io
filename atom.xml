@@ -4,7 +4,7 @@
   <title><![CDATA[Kian的自留地]]></title>
   <link href="http://kianli.com/atom.xml" rel="self"/>
   <link href="http://kianli.com/"/>
-  <updated>2016-03-18T14:17:20+08:00</updated>
+  <updated>2016-03-18T14:27:06+08:00</updated>
   <id>http://kianli.com/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -137,9 +137,9 @@ SHA1：071A2B6CB634D46E12DC2B287DCFDB737A615281 <br/>
 
 <p>这是我之前收到的明信片 自己用来做iPhone 6的壁纸的</p>
 
-<span id="more"></span><!-- more -->
-
 <p><img src="http://ww1.sinaimg.cn/large/621370d5gw1f1wjwjdys7j21kw23u4qq.jpg" alt=""/></p>
+
+<span id="more"></span><!-- more -->
 
 <h2 id="toc_0">Travelling Cards | 寄出的明信片</h2>
 
@@ -154,23 +154,31 @@ SHA1：071A2B6CB634D46E12DC2B287DCFDB737A615281 <br/>
 <tbody>
 <tr>
 <td><a href="https://www.postcrossing.com/travelingpostcard/CN-1900344" target="_blank">CN-1900344</a></td>
-<td>Ireland</td>
+<td>Ireland 🇮🇪 爱尔兰</td>
 </tr>
 <tr>
 <td><a href="https://www.postcrossing.com/travelingpostcard/CN-1900340" target="_blank">CN-1900340</a></td>
-<td>United Kingdom</td>
+<td>United Kingdom 🇬🇧 英国</td>
 </tr>
 <tr>
 <td><a href="https://www.postcrossing.com/travelingpostcard/CN-1900339" target="_blank">CN-1900339</a></td>
-<td>U.S.A</td>
+<td>U.S.A 🇺🇸 美国</td>
 </tr>
 <tr>
 <td><a href="https://www.postcrossing.com/travelingpostcard/CN-1900081" target="_blank">CN-1900081</a></td>
-<td>Germany</td>
+<td>Germany 🇩🇪 德国</td>
 </tr>
 <tr>
 <td><a href="https://www.postcrossing.com/travelingpostcard/CN-1899456" target="_blank">CN-1899456</a></td>
-<td>Russia</td>
+<td>Russia 🇷🇺 俄罗斯</td>
+</tr>
+<tr>
+<td><a href="https://www.postcrossing.com/travelingpostcard/CN-1905702" target="_blank">CN-1905702</a></td>
+<td>Finland 🇫🇮 芬兰</td>
+</tr>
+<tr>
+<td><a href="https://www.postcrossing.com/travelingpostcard/CN-1905702" target="_blank">CN-1905702</a></td>
+<td>Netherlands 🇳🇱 荷兰</td>
 </tr>
 </tbody>
 </table>
@@ -349,7 +357,7 @@ ASIN: 9866616967<br/>
 <blockquote class="twitter-tweet" data-cards="hidden" data-lang="en"><p lang="de" dir="ltr">Garden in Shanghai - H. Zuber - China in 1866 - Watercolor - Priv. coll. <a href="https://t.co/eDiawqK5Ee">pic.twitter.com/eDiawqK5Ee</a></p>&mdash; Le peintre Zuber (@henri_zuber) <a href="https://twitter.com/henri_zuber/status/706092030842245121">March 5, 2016</a></blockquote><br/>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
 
-<h3 id="toc_3">Etude pour <q>La jonque chinoise</q></h3>
+<h3 id="toc_3">Etude pour &quot;La jonque chinoise&quot;</h3>
 
 <p><img src="http://ww4.sinaimg.cn/large/621370d5gw1f1t97h4alwj20go0bpdgs.jpg" alt=""/><br/>
 <blockquote class="twitter-tweet" data-cards="hidden" data-lang="en"><p lang="fr" dir="ltr">Etude pour &quot;La jonque chinoise&quot; - H. Zuber - Aquarelle - Coll. part. <a href="https://t.co/f5dCd3lcWT">pic.twitter.com/f5dCd3lcWT</a></p>&mdash; Le peintre Zuber (@henri_zuber) <a href="https://twitter.com/henri_zuber/status/704042146693775360">February 28, 2016</a></blockquote><br/>
@@ -1321,11 +1329,11 @@ magnet:?xt=urn:btih:69DB49264ACCFE1B3976CC952F4991ED87578360&amp;dn=the+little+p
 <h2 id="toc_0">推荐理由</h2>
 
 <ul>
-<li class="task-list-item"><p><input type="checkbox" checked /> 现代流行音乐里的第一首长歌，时长达到了惊人的8分32秒，但是其中的每一秒都不容错过</p>
+<li class="task-list-item"><p><input disabled="disabled" type="checkbox" checked /> 现代流行音乐里的第一首长歌，时长达到了惊人的8分32秒，但是其中的每一秒都不容错过</p>
 </li>
-<li class="task-list-item"><p><input type="checkbox" checked /> 完全可以通过这首歌了解20世纪50年代的美国</p>
+<li class="task-list-item"><p><input disabled="disabled" type="checkbox" checked /> 完全可以通过这首歌了解20世纪50年代的美国</p>
 </li>
-<li class="task-list-item"><p><input type="checkbox" checked /> 歌词优美，虽然是一首歌，但是Don McLean把歌写成了小说，这首歌到现在为止仍然还是歌迷们乐此不疲想去解码歌词的一首经典之作</p>
+<li class="task-list-item"><p><input disabled="disabled" type="checkbox" checked /> 歌词优美，虽然是一首歌，但是Don McLean把歌写成了小说，这首歌到现在为止仍然还是歌迷们乐此不疲想去解码歌词的一首经典之作</p>
 </li>
 </ul>
 
@@ -1393,7 +1401,7 @@ magnet:?xt=urn:btih:69DB49264ACCFE1B3976CC952F4991ED87578360&amp;dn=the+little+p
 <p>这一段Chorus应该是整一首歌曲里最短，最为简洁的一段。但是其中包含了很多美国元素。<br/>
 比如：<br/>
 1. 贯穿整一首歌曲，但是第一次出现的Bye Bye, American Pie, 此处应该指代的是向过去美国说再见<br/>
-2. <q>Drove my Chevy to the levee</q> 这句歌词引自20世纪50年代经典雪弗兰电视广告歌曲，歌词作者是Dinah Shore。 <br/>
+2. &quot;Drove my Chevy to the levee&quot; 这句歌词引自20世纪50年代经典雪弗兰电视广告歌曲，歌词作者是Dinah Shore。 <br/>
 雪弗兰汽车是20世纪50年代美国文化的一个代名词，而levee暗示的是Don McLean的一场罗曼史，但是因为吼一句提到的levee is dry, 也就是这场罗曼史的戛然而止。</p>
 
 <hr/>
@@ -1446,7 +1454,7 @@ The day the music died <br/>
 <blockquote>
 <p><mark>评析</mark>：</p>
 
-<p>这段Verse又为我们展示了20世纪50年代的美国和流行文化，比如：<q>do you have faith in god above</q>指代的是在那个年代大多数美国人仍旧相信自己生活在一个信主的国度里，而在之后到来的60年代，美国传统价值观受到的冲击和改变是非常惊人的。而Real Dance是在50年代美国非常流行的一种舞，而Gym应该指代的是学校里的Gym，那个时代常被用来开舞会。Kick off your shoes指代的是，那个年代跳舞，学生们为了不伤害学校体育馆地板上打的蜡，会脱掉鞋子，穿着袜子跳舞。通过第二段Verse，我们应该非常清楚的一点是Don McLean笔下的Miss American Pie指的是20世纪50年代的美国，他巧妙地通过自己青春期的偶像Buddy Holly串联起来了这些代表20世纪50年代美国的元素和现象。在接下来的歌曲中，我们就能看到Don McLean对接下来的时代：60年代以及对应的改变的一些自己的观点了。</p>
+<p>这段Verse又为我们展示了20世纪50年代的美国和流行文化，比如：&quot;do you have faith in god above&quot;指代的是在那个年代大多数美国人仍旧相信自己生活在一个信主的国度里，而在之后到来的60年代，美国传统价值观受到的冲击和改变是非常惊人的。而Real Dance是在50年代美国非常流行的一种舞，而Gym应该指代的是学校里的Gym，那个时代常被用来开舞会。Kick off your shoes指代的是，那个年代跳舞，学生们为了不伤害学校体育馆地板上打的蜡，会脱掉鞋子，穿着袜子跳舞。通过第二段Verse，我们应该非常清楚的一点是Don McLean笔下的Miss American Pie指的是20世纪50年代的美国，他巧妙地通过自己青春期的偶像Buddy Holly串联起来了这些代表20世纪50年代美国的元素和现象。在接下来的歌曲中，我们就能看到Don McLean对接下来的时代：60年代以及对应的改变的一些自己的观点了。</p>
 </blockquote>
 
 <h2 id="toc_5">Verse 3</h2>
@@ -1525,19 +1533,19 @@ The day the music died <br/>
 <h3 id="toc_3"><mark>推荐理由</mark></h3>
 
 <ul>
-<li class="task-list-item"><p><input type="checkbox" checked /> 实时预览: 支持实时预览对于新手，尤其是 <mark>代码无感型</mark> 来说是重大利好。</p>
+<li class="task-list-item"><p><input disabled="disabled" type="checkbox" checked /> 实时预览: 支持实时预览对于新手，尤其是 <mark>代码无感型</mark> 来说是重大利好。</p>
 
 <blockquote>
 <p>我的博客是在 <a href="http://bao3.org">Bao3</a>的 <del>帮助</del> <mark>代办下</mark>架设成功的， <a href="http://bao3.org">Bao3</a>哥水银泻地一般地操作之后还顺带帮我写了个发布博客的小程序。虽然到最后我还是没有看懂，但是大概意思是通过<a href="http://zh.mweb.im/">MWeb Writer</a>写完，把MWeb Writer本地文件夹里的内容直接发布到github page上的形式完成。（我的Mac上因为之前自己白痴，找了网上的hexo教程，一个失败就直接换一个操作，导致系统混乱，连 <a href="http://bao3.org">Bao3</a>也摊手了。） <a href="http://zh.mweb.im/">MWeb Writer</a>有一个我不太适应的地方是每次换格式需要先空格再回车，而Haroopad相对而言更加个人适应 </p>
 </blockquote>
 </li>
-<li class="task-list-item"><p><input type="checkbox" checked /> Markdown基本语法规则可以通过界面左下角呼出，英文看懂就可以写。 </p>
+<li class="task-list-item"><p><input disabled="disabled" type="checkbox" checked /> Markdown基本语法规则可以通过界面左下角呼出，英文看懂就可以写。 </p>
 
 <blockquote>
 <p>这对于我来说就省去了查阅文档的苦恼了，当然还是要分享一下写作的语法说明给大家 <a href="https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf">Markdown语法说明</a> </p>
 </blockquote>
 </li>
-<li class="task-list-item"><p><input type="checkbox" checked /> Markdown的编辑软件各个平台(Windows/Mac/在线)都很丰富，就现在阶段来说，比较适合我的可能就是这款Haroopad了</p>
+<li class="task-list-item"><p><input disabled="disabled" type="checkbox" checked /> Markdown的编辑软件各个平台(Windows/Mac/在线)都很丰富，就现在阶段来说，比较适合我的可能就是这款Haroopad了</p>
 
 <blockquote>
 <p>下载可以戳：<a href="http://pad.haroopress.com/user.html#download">http://pad.haroopress.com/user.html#download</a>   </p>
@@ -1636,9 +1644,9 @@ The day the music died <br/>
 <p>这些文章是官方的说明档：</p>
 
 <ul>
-<li class="task-list-item"><input type="checkbox" checked /> <a href="https://medium.com/@scomper/surge-%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6-a1533c10e80b#.gcsmm6w4l">官方新手使用指南</a>
+<li class="task-list-item"><input disabled="disabled" type="checkbox" checked /> <a href="https://medium.com/@scomper/surge-%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6-a1533c10e80b#.gcsmm6w4l">官方新手使用指南</a>
 </li>
-<li class="task-list-item"><input type="checkbox" checked /> <a href="http://surge.run/manual/">官方手册 英文</a>
+<li class="task-list-item"><input disabled="disabled" type="checkbox" checked /> <a href="http://surge.run/manual/">官方手册 英文</a>
 </li>
 </ul>
 
@@ -1647,11 +1655,11 @@ The day the music died <br/>
 <p>这里就直白粗暴地介绍下：</p>
 
 <ul>
-<li class="task-list-item"><input type="checkbox" checked /> 买好Surge这款应用：<a href="https://itunes.apple.com/us/app/surge-web-developer-tool-proxy/id1040100637?mt=8&amp;uo=8&amp;at=1000l7mq">美区</a>  |  <a href="https://itunes.apple.com/cn/app/surge-web-developer-tool-proxy/id1040100637?mt=8&amp;uo=8&amp;at=1000l7mq">中国区</a><br/>
+<li class="task-list-item"><input disabled="disabled" type="checkbox" checked /> 买好Surge这款应用：<a href="https://itunes.apple.com/us/app/surge-web-developer-tool-proxy/id1040100637?mt=8&amp;uo=8&amp;at=1000l7mq">美区</a>  |  <a href="https://itunes.apple.com/cn/app/surge-web-developer-tool-proxy/id1040100637?mt=8&amp;uo=8&amp;at=1000l7mq">中国区</a><br/>
 </li>
-<li class="task-list-item"><input type="checkbox" checked /> 你拥有SSH账号，推荐使用<a href="https://bandwagonhost.com/aff.php?aff=5317">搬瓦工</a> 关于搬瓦工可以参考文末附的题外话
+<li class="task-list-item"><input disabled="disabled" type="checkbox" checked /> 你拥有SSH账号，推荐使用<a href="https://bandwagonhost.com/aff.php?aff=5317">搬瓦工</a> 关于搬瓦工可以参考文末附的题外话
 </li>
-<li class="task-list-item"><input type="checkbox" checked /> 配置文件和SSencrypt.module文件的网址
+<li class="task-list-item"><input disabled="disabled" type="checkbox" checked /> 配置文件和SSencrypt.module文件的网址
 </li>
 </ul>
 
