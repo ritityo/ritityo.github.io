@@ -4,13 +4,93 @@
   <title><![CDATA[Kian的自留地]]></title>
   <link href="http://kianli.com/atom.xml" rel="self"/>
   <link href="http://kianli.com/"/>
-  <updated>2016-03-18T14:27:06+08:00</updated>
+  <updated>2016-04-01T16:11:16+08:00</updated>
   <id>http://kianli.com/</id>
   <author>
     <name><![CDATA[]]></name>
     
   </author>
   <generator uri="http://www.mweb.im/">MWeb</generator>
+  
+  <entry>
+    <title type="html"><![CDATA[红米手机3折腾手记]]></title>
+    <link href="http://kianli.com/14587450200585.html"/>
+    <updated>2016-03-23T22:57:00+08:00</updated>
+    <id>http://kianli.com/14587450200585.html</id>
+    <content type="html"><![CDATA[
+<p><img src="http://ww2.sinaimg.cn/large/621370d5gw1f2g5r4s555j20jz0c0diw.jpg" alt=""/></p>
+
+<p>去年年底的时候，老爸和我说为什么之前我在微信上发给他的那些他孙子的照片和视频看不了了，是不是手机坏了，他在老家小镇上的超市里发现手机柜台里卖的华为某青春版不错，他准备要买。<br/>
+听到这里，我就在空的时候回去了趟。为什么之前他手机上看过的视频和照片看不了呢？ 他的红米1S的TF卡被人“拿走”了。 做这个事情的朋友，这实在是太缺德了... <br/>
+鉴于我老爹之前用的是MIUI系统，所以我觉得他去买华为某青春版学习成本太高，加上红米Note3评价还都不错，于是我就先首富家给他买了张TF卡放在红米1S里，然后安心开始参加雷猴王的每周耍猴大赛。<br/>
+既然给自己老爹买了台红米Note 3了，我为什么不也顺便买一台红米3来玩一下，这就是为什么我自己会买红米3的原因。</p>
+
+<h2 id="toc_0">关于红米3的TF卡扩展</h2>
+
+<p>常规的参数大家可以在小米官网上看到，这里有一点关于扩展卡的问题<br/>
+<a href="http://www.mi.com/hongmi3" target="_blank">红米手机3: 小米官网</a> 对红米手机3支持的TF卡容量进行了说明</p>
+
+<blockquote>
+<p><mark>最高支持128GB(VFAT格式) 扩展存储</mark></p>
+</blockquote>
+
+<p>其实我也还是好奇，究竟有多少人知道VFAT 这个格式呢？ 因为自己手上有一个64G的TF卡，由于不太了解这个格式，于是就在奶茶东上问了出售红米3手机的卖家，对方说不支持64G，最高只支持32G, 也就是说这款的格式应该是FAT32的</p>
+
+<p>不过幸好有一款比较厉害的软件，可以支持把大容量的TF卡转换为FAT 32格式</p>
+
+<blockquote>
+<p>软件名称： FAT32 Format<br/>
+下载链接：<a href="http://www.ridgecrop.demon.co.uk/guiformat.exe" target="_blank"><a href="http://www.ridgecrop.demon.co.uk/guiformat.exe">http://www.ridgecrop.demon.co.uk/guiformat.exe</a></a> （直接右键另存为)</p>
+</blockquote>
+
+<span id="more"></span><!-- more -->
+
+<p><img src="http://ww1.sinaimg.cn/large/621370d5gw1f2g3pen46sj20bo0dp0tn.jpg" alt=""/></p>
+
+<p><img src="http://ww1.sinaimg.cn/large/621370d5gw1f2g3q3swb8j20bk0dmjtf.jpg" alt=""/></p>
+
+<p><img src="http://ww2.sinaimg.cn/large/621370d5gw1f2g3rn8g7bj20nx0gu0xp.jpg" alt=""/></p>
+
+<h2 id="toc_1">关于解锁和第三方Recovery</h2>
+
+<h3 id="toc_2">解锁资格</h3>
+
+<p>记住，请在你的红米3到手之后第一时间在<a href="http://www.miui.com/unlock/" target="_blank"><a href="http://www.miui.com/unlock/">http://www.miui.com/unlock/</a></a>上申请解锁，从MIUI论坛里大家的分享来看，一般10天可以拿到解锁资格。</p>
+
+<h3 id="toc_3">开发版Rom</h3>
+
+<p>拿到解锁资格之后，你需要把你的红米3刷成开发版</p>
+
+<blockquote>
+<p><mark>红米3开发版刷机教程</mark>: <a href="http://www.miui.com/shuaji-393.html" target="_blank"><a href="http://www.miui.com/shuaji-393.html">http://www.miui.com/shuaji-393.html</a></a></p>
+</blockquote>
+
+<h3 id="toc_4">解锁Bootloader的注意点</h3>
+
+<p>1: 刷完开发版之后用你的小米账号登录手机 开启云服务 记得要开启下寻找手机的功能<br/>
+2: 关机之后同时按下音量键向下和电源键进入Flashboot模式</p>
+
+<h3 id="toc_5">安装第三方Recovery</h3>
+
+<p><a href="http://blog.cofface.com/archives/1775.html" target="_blank">Cofface汉化的TWRP Recovery</a> 一直在用 非常不错 点开链接可以看到Recovery的下载和安装步骤</p>
+
+<h2 id="toc_6">关于被广告充斥的MIUI</h2>
+
+<p>的确很头疼，国际版的MIUI据说是没有这些问题的<br/>
+当然也可以刷其他的第三方Rom, 基本都是移植版，有Flyme的，也有CM 12.1的<br/>
+其中我自己用过且个人非常主观喜欢的就是Cofface移植的CM12.1, 这个Rom没有任何预制的国产app, 非常纯净。</p>
+
+<p><a href="http://blog.cofface.com/archives/1807.html" target="_blank">【cofface】红米3全网通 CM12.1 5.1.1 ROM发布更新20160330<br/>
+</a> <br/>
+<mark>视频展示</mark><br/>
+<iframe frameborder="0" width="640" height="498" src="http://v.qq.com/iframe/player.html?vid=m0191v1pdkb&tiny=0&auto=0" allowfullscreen></iframe></p>
+
+<h2 id="toc_7">关于Ported CM 12.1上安装Xposed的问题</h2>
+
+<p>等我更新哈</p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Windows各版本官方原版系统]]></title>
@@ -153,32 +233,36 @@ SHA1：071A2B6CB634D46E12DC2B287DCFDB737A615281 <br/>
 
 <tbody>
 <tr>
-<td><a href="https://www.postcrossing.com/travelingpostcard/CN-1900344" target="_blank">CN-1900344</a></td>
+<td><a href="https://www.postcrossing.com/postcards/CN-1900344" target="_blank">CN-1900344</a></td>
 <td>Ireland 🇮🇪 爱尔兰</td>
 </tr>
 <tr>
-<td><a href="https://www.postcrossing.com/travelingpostcard/CN-1900340" target="_blank">CN-1900340</a></td>
+<td><a href="https://www.postcrossing.com/postcards/CN-1900340" target="_blank">CN-1900340</a></td>
 <td>United Kingdom 🇬🇧 英国</td>
 </tr>
 <tr>
-<td><a href="https://www.postcrossing.com/travelingpostcard/CN-1900339" target="_blank">CN-1900339</a></td>
+<td><a href="https://www.postcrossing.com/postcards/CN-1900339" target="_blank">CN-1900339</a></td>
 <td>U.S.A 🇺🇸 美国</td>
 </tr>
 <tr>
-<td><a href="https://www.postcrossing.com/travelingpostcard/CN-1900081" target="_blank">CN-1900081</a></td>
+<td><a href="https://www.postcrossing.com/postcards/CN-1900081" target="_blank">CN-1900081</a></td>
 <td>Germany 🇩🇪 德国</td>
 </tr>
 <tr>
-<td><a href="https://www.postcrossing.com/travelingpostcard/CN-1899456" target="_blank">CN-1899456</a></td>
+<td><a href="https://www.postcrossing.com/postcards/CN-1899456" target="_blank">CN-1899456</a></td>
 <td>Russia 🇷🇺 俄罗斯</td>
 </tr>
 <tr>
-<td><a href="https://www.postcrossing.com/travelingpostcard/CN-1905702" target="_blank">CN-1905702</a></td>
+<td><a href="https://www.postcrossing.com/postcards/CN-1905702" target="_blank">CN-1905702</a></td>
 <td>Finland 🇫🇮 芬兰</td>
 </tr>
 <tr>
-<td><a href="https://www.postcrossing.com/travelingpostcard/CN-1905702" target="_blank">CN-1905702</a></td>
+<td><a href="https://www.postcrossing.com/postcards/CN-1905702" target="_blank">CN-1905702</a></td>
 <td>Netherlands 🇳🇱 荷兰</td>
+</tr>
+<tr>
+<td><a href="https://www.postcrossing.com/postcards/CN-1909627" target="_blank">CN-1909627</a></td>
+<td>Taiwan 🇹🇼 台湾</td>
 </tr>
 </tbody>
 </table>
@@ -1722,91 +1806,6 @@ The day the music died <br/>
 
 <p>3: 关于完整的购买和注册以及shadowsocks的部署可以看<a href="http://jingyan.baidu.com/article/00a07f3842e53982d128dc7d.html">这篇百度经验</a></p>
 </blockquote>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[SSAT考试作弊风波]]></title>
-    <link href="http://kianli.com/14454684817209.html"/>
-    <updated>2015-10-22T07:01:21+08:00</updated>
-    <id>http://kianli.com/14454684817209.html</id>
-    <content type="html"><![CDATA[
-<p><img src="http://ww2.sinaimg.cn/large/621370d5gw1exb7gtg98hj20eo09o0tb.jpg" alt="SSAT"/></p>
-
-<h2 id="toc_0">什么是SSAT</h2>
-
-<p>相信很多人看到SSAT第一反应是不是我键盘连击了... </p>
-
-<blockquote>
-<p>The Secondary School Admission Test, or SSAT, is an admission test administered by the Secondary School Admission Test Board (SSATB) to students in grades 3-11 to provide a standardized measure that will help professionals in independent or private elementary, middle, and high schools to make decisions regarding student admission.<br/>
-------------------------------自<a href="https://en.wikipedia.org/wiki/Secondary_School_Admission_Test">Wikipedia</a></p>
-</blockquote>
-
-<p>如果用中文来介绍的话：</p>
-
-<blockquote>
-<p>SSAT，全称Secondary School Admission Test，中文名称为美国中学入学考试，适用于美国、加拿大私立中学的入学，是申请者所必须具备的一个考试成绩。主要测量学生的数学、语文以及阅读理解能力，考察考生的逻辑思维和发展潜力。由Admission Test Board命题。针对不同年龄的学生，SSAT考试分为高级（upper level）和低级（lower level），前者针对目前就读8-11年级的学生，后者针对目前就读5-7年级的学生。<br/>
-   －－－－－－－－－－摘自 <a href="http://baike.baidu.com/link?url=zlmrNOJbtoKpmtXFCQ-kvyo8CoGJRBH5W39IL2XUQ5GvRbPkbQcsO24vcne9aecaocMdwQwctVxhS00lEYAsKK">百度百科</a></p>
-</blockquote>
-
-<h2 id="toc_1">为什么要作弊?</h2>
-
-<p>SSAT考试有三大模块组成：</p>
-
-<ol>
-<li>Quantitative数学（2个Section,每个各25分钟，30道题）；</li>
-<li>Reading阅读理解(1个Section, 40分钟，40道题); </li>
-<li>Verbal词汇(1个Section, 30分钟 其中Synonym近义词30题，Analogies类比题30题：共60题)
-三个部分的Scaled Score每个模块各800分，总分2400分</li>
-</ol>
-
-<span id="more"></span><!-- more -->
-
-<p>SSAT总分和SAT一样都是2400，那么初中生们为什么要作弊呢？<br/>
-我们谈到这一点，必须要提到SSAT中一个特有的成绩项：Percentile百分比成绩：<br/>
-这个Percentile指的是比如一个10年级男生A，参加了2006年1月的SSAT考试，数学的等级分为800，对应的百分成绩99%，表明在2003年1月到2006年1月的3年中，所有参加高级SSAT的10年级男生中，A的数学在99%的人之前。<br/>
-那么换言之，这门考试除了自己要考好之外，百分比成绩要高还取决于别人的分数高低，而美国的顶尖私立高中关注的更多地会去关注百分比成绩，而非学生在2400的总分里拿到了多少分。</p>
-
-<h2 id="toc_2">真题是从何而来的？</h2>
-
-<p>这门考试不像<br/>
-在百分比成绩决定是否可以被顶尖的美国私立高中录取的推动下，越来越多的机构通过老生参考把题目记在橡皮上等方式不断地积累官方题库里原本就不多的真题，也就有了很多机构大力推广的的真题班、机经班。去年，有一家名为X美留学这家培训机构，甚至会在每次SSAT出成绩之后在官方的微信公共账号里推送相关信息。猖狂程度令人惊讶。</p>
-
-<blockquote>
-<p>新民晚报上对于SSAT取消中国考生成绩事件的报道<br/>
-<img src="http://ww3.sinaimg.cn/large/621370d5gw1exbu2g18i6j21kw26tb29.jpg" alt="新民晚报上的报道"/></p>
-</blockquote>
-
-<p>但是此处我们不得不问一个问题：为什么9月19日的SSAT考试全球只有在上海和北京举行呢？<br/>
-在原来的15年下半年到16年上半的考试安排计划里本没有9月19日的这场考试：</p>
-
-<blockquote>
-<p><img src="http://ww4.sinaimg.cn/large/621370d5gw1exfqbh2b1nj20ng0a2gq1.jpg" alt="考试安排"/></p>
-</blockquote>
-
-<p>因为2016年2月6日的这场考试正好和春节冲突（农历12月29），官方就把原来在这个时间考试的中国区的那场考试移到了9月19日。此处我觉得官方是正好抓住了这个机会可以看看中国区的作弊情况，个人推断这个考试时间的改变真正的目的是为了验证官方的猜想。结果当天考试结束之后有某些机构培训的考生一出考场就兴奋地大喊：“机经全中了！” 有某家深圳机构甚至出现了75%的参考学员考到了满分的逆天结果。</p>
-
-<p>官方取消全部参考Upper Level考试考生的成绩也就顺水推舟了。</p>
-
-<p>为什么Middle Level考生被取消成绩呢？原因非常简单：考生人数规模小，没有机构愿意为了这么小的市场去花心思作弊。</p>
-
-<h2 id="toc_3">谁是受害者？</h2>
-
-<p>1、SSAT<br/>
-因为考试出现了严重的作弊情况，可能公信力会下降，一旦出现了又同等效力且干净的考试，相信美国的优质私立高中也会用脚投票的。</p>
-
-<p>2、考生<br/>
-- 首当其冲的就是参与作弊的考生，一旦查出，美国绝对不会手软。这会是害了自己一辈子的一步昏招。<br/>
-- 最“躺枪”的就是没有作弊的考生了， 在备考时要认真备考，考试时除了发挥出自己最好的水平甚至超常发挥也要期待别的考生的表现不要太逆天；出了作弊丑闻之后，除了前面讲的内容之外还要祈祷其他的考生不要作弊，一旦官方再次取消中国区考生的成绩，自己又要中枪...</p>
-
-<h2 id="toc_4">如何解决</h2>
-
-<ol>
-<li><p>从短期来看，接下来肯定会出现一波SSAT境外考场抢位热，但也会很快出现作弊考生／机构转战境外的情况；如果要根本解决问题，根本取决于SSAT官方。采用新的机制,扩大题库，加强监管。</p></li>
-<li><p>加强和中国相关部分的合作。在我国，组织、参与大型考试作弊是会被判刑的，但是国外的语言考试、学术考试却因为特殊情况没有监管部门的认真管理。</p></li>
-<li><p>考生家长一定要清楚的一点，千万不要作弊，世界上还是有些国家你玩的转的路子是行不通的。送孩子出去就是为了接受好的教育，为什么不把诚信教育这个非常好的教育从国内就做起来呢？</p></li>
-</ol>
 
 ]]></content>
   </entry>
