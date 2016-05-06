@@ -118,6 +118,25 @@
 2: <a href="http://www.mi7.club/2016/02/11/%E6%90%AC%E7%93%A6%E5%B7%A5centos-vps%E5%AE%9A%E6%97%B6%E9%87%8D%E5%90%AF/"target="_blank">米奇Club: 搬瓦工CentOS VPS定时重启</a></p>
 </blockquote>
 
+<h3 id="toc_0"><mark>UPDATE</mark></h3>
+
+<p>有朋友表示还是不太清晰如何在后台设置自动服务器重启，这里引用<a href="http://tieba.baidu.com/p/4381692240"target="_blank">百度贴吧：新手教程，每日自动重启搬瓦工，大神请无视<br/>
+</a> 提到的步骤：</p>
+
+<blockquote>
+<p>1、首先把时区设成中国时区，注意别忘了中间的空格<br/>
+cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime<br/>
+2、然后它会问你是否写入设置，按下回车就行<br/>
+3、设置开机启动 chkconfig crond on<br/>
+4、启动服务 service crond start<br/>
+5、编辑 crontab –e<br/>
+6、按i 输入 30 3 * * * root /sbin/reboot （表示晚上3点半自动重启） 按esc 按shift+zz<br/>
+7、重启 service crond restart</p>
+</blockquote>
+
+<p>记住！你要进入Kiwi Control Panel之后,在左侧栏里找到Root hell -interactive 进入， 界面和步骤完整无错完成之后你可以看到的如下图所示：<br/>
+<img src="http://ww2.sinaimg.cn/large/621370d5gw1f3lpdu60rmj20nl0fbabv.jpg" alt=""/></p>
+
 <hr/>
 
 <p>今天要讲的是如何通过安卓应用搬瓦工控制器来实现应急重启</p>
@@ -287,6 +306,12 @@
 	      
 		      
 			      <li class="post">
+			        <a href="14624219245078.html">Mac平台推荐软件：iTVSeries</a>
+			      </li>
+		     
+		  
+		      
+			      <li class="post">
 			        <a href="14614690622097.html">推荐几个推特帐号</a>
 			      </li>
 		     
@@ -306,12 +331,6 @@
 		      
 			      <li class="post">
 			        <a href="14602751890857.html">搬瓦工控制器</a>
-			      </li>
-		     
-		  
-		      
-			      <li class="post">
-			        <a href="14587450200585.html">红米手机3折腾手记</a>
 			      </li>
 		     
 		  

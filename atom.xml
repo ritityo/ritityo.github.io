@@ -4,13 +4,44 @@
   <title><![CDATA[Kian的自留地]]></title>
   <link href="http://kianli.com/atom.xml" rel="self"/>
   <link href="http://kianli.com/"/>
-  <updated>2016-04-27T16:54:00+08:00</updated>
+  <updated>2016-05-05T09:30:56+08:00</updated>
   <id>http://kianli.com/</id>
   <author>
     <name><![CDATA[]]></name>
     
   </author>
   <generator uri="http://www.mweb.im/">MWeb</generator>
+  
+  <entry>
+    <title type="html"><![CDATA[Mac平台推荐软件：iTVSeries]]></title>
+    <link href="http://kianli.com/14624219245078.html"/>
+    <updated>2016-05-05T12:18:44+08:00</updated>
+    <id>http://kianli.com/14624219245078.html</id>
+    <content type="html"><![CDATA[
+<p>看到<a href="http://bao3.org/"target="_blank">宝山大哥</a>在推特上推荐这款Mac上的看美剧的程序，试了一把 果然不错，分享给大家</p>
+
+<p><img src="http://ooo.0o0.ooo/2016/05/04/572aca5667b53.png" alt=""/></p>
+
+<p><img src="http://ooo.0o0.ooo/2016/05/04/572acae7b0cfc.png" alt=""/></p>
+
+<p>下载地址： </p>
+
+<p><a href="https://www.dropbox.com/s/6csd4ym6i0tysbk/iTVSeries.zip?dl=0"target="_blank">国外Dropbox下载</a>  | <a href="http://pan.baidu.com/s/1qY26U88"target="_blank">国内百度下载</a></p>
+
+<span id="more"></span><!-- more -->
+
+<p>到你访问方便的网盘里去下载zip文件<br/>
+解压之后把解压所得直接拖到你的mac的Finder里的应用程序即完成安装<br/>
+如果第一次无法打开，请在Finder的应用程序标签里找到iTVSeries， 你的Mac会问你是否打开，放心打开即可，至少比百度和360安全多了 :-)</p>
+
+<p><img src="http://ww2.sinaimg.cn/large/621370d5gw1f3lpr67iyyj20le0cpgps.jpg" alt=""/></p>
+
+<h3 id="toc_0"><mark>作者的github页面</mark></h3>
+
+<p><a href="https://github.com/iTVSeries/iTVSeries"target="_blank">iTVSeries@github</a></p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[推荐几个推特帐号]]></title>
@@ -275,6 +306,25 @@ The pic above was uploaded for people who can&#39;t access twitter.</mark></li>
 2: <a href="http://www.mi7.club/2016/02/11/%E6%90%AC%E7%93%A6%E5%B7%A5centos-vps%E5%AE%9A%E6%97%B6%E9%87%8D%E5%90%AF/"target="_blank">米奇Club: 搬瓦工CentOS VPS定时重启</a></p>
 </blockquote>
 
+<h3 id="toc_0"><mark>UPDATE</mark></h3>
+
+<p>有朋友表示还是不太清晰如何在后台设置自动服务器重启，这里引用<a href="http://tieba.baidu.com/p/4381692240"target="_blank">百度贴吧：新手教程，每日自动重启搬瓦工，大神请无视<br/>
+</a> 提到的步骤：</p>
+
+<blockquote>
+<p>1、首先把时区设成中国时区，注意别忘了中间的空格<br/>
+cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime<br/>
+2、然后它会问你是否写入设置，按下回车就行<br/>
+3、设置开机启动 chkconfig crond on<br/>
+4、启动服务 service crond start<br/>
+5、编辑 crontab –e<br/>
+6、按i 输入 30 3 * * * root /sbin/reboot （表示晚上3点半自动重启） 按esc 按shift+zz<br/>
+7、重启 service crond restart</p>
+</blockquote>
+
+<p>记住！你要进入Kiwi Control Panel之后,在左侧栏里找到Root hell -interactive 进入， 界面和步骤完整无错完成之后你可以看到的如下图所示：<br/>
+<img src="http://ww2.sinaimg.cn/large/621370d5gw1f3lpdu60rmj20nl0fbabv.jpg" alt=""/></p>
+
 <hr/>
 
 <p>今天要讲的是如何通过安卓应用搬瓦工控制器来实现应急重启</p>
@@ -293,7 +343,7 @@ The pic above was uploaded for people who can&#39;t access twitter.</mark></li>
 
 <span id="more"></span><!-- more -->
 
-<h3 id="toc_0">应用界面和设置</h3>
+<h3 id="toc_1">应用界面和设置</h3>
 
 <p><img src="http://ww2.sinaimg.cn/large/621370d5gw1f2rnxm72b0j20u01hctb3.jpg" alt=""/></p>
 
@@ -317,7 +367,7 @@ The pic above was uploaded for people who can&#39;t access twitter.</mark></li>
 <p><img src="http://ww2.sinaimg.cn/large/621370d5gw1f2roi67hvjj20k00zk0vl.jpg" alt=""/><br/>
 看到<mark>重启</mark>了没？ </p>
 
-<h3 id="toc_1">P.S 如果觉得本文对你有帮助可以通过下面的扫码捐款的方式给我打赏</h3>
+<h3 id="toc_2">P.S 如果觉得本文对你有帮助可以通过下面的扫码捐款的方式给我打赏</h3>
 
 <p>左边是微信支付，右边是支付宝支付 :-) ☕️</p>
 
@@ -575,7 +625,7 @@ SHA1：071A2B6CB634D46E12DC2B287DCFDB737A615281 <br/>
 
 <span id="more"></span><!-- more -->
 
-<h2 id="toc_0">Travelling Cards | 寄出的明信片</h2>
+<h3 id="toc_0"><mark>Sent cards | 已寄出明信片</mark></h3>
 
 <table>
 <thead>
@@ -623,112 +673,44 @@ SHA1：071A2B6CB634D46E12DC2B287DCFDB737A615281 <br/>
 
 <h1 id="toc_1"></h1>
 
-<h2 id="toc_2">Received Cards | 收到的明信片</h2>
+<h3 id="toc_2"><mark>Received Cards | 收到的明信片</mark></h3>
 
 <table>
 <thead>
 <tr>
 <th>Number/编号</th>
-<th>From/来自</th>
+<th>From/发片地</th>
 </tr>
 </thead>
 
 <tbody>
 <tr>
-<td>？</td>
-<td>？</td>
+<td><a href="https://www.postcrossing.com/postcards/AU-486069" target="_blank">AU-486069</a></td>
+<td>Australia 🇦🇺 澳大利亚</td>
 </tr>
 <tr>
-<td>？</td>
-<td>？</td>
+<td><a href="https://www.postcrossing.com/postcards/FI-2678890" target="_blank">FI-2678890</a></td>
+<td>Finland 🇫🇮 芬兰</td>
 </tr>
 <tr>
-<td>？</td>
-<td>？</td>
+<td><a href="https://www.postcrossing.com/postcards/FI-2677114" target="_blank">FI-2677114</a></td>
+<td>Finland 🇫🇮 芬兰</td>
 </tr>
 <tr>
-<td>？</td>
-<td>？</td>
+<td><a href="https://www.postcrossing.com/postcards/UA-1425991" target="_blank">UA-1425991</a></td>
+<td>Ukraine 🇺🇦 乌克兰</td>
 </tr>
 <tr>
-<td>？</td>
-<td>？</td>
+<td><a href="https://www.postcrossing.com/postcards/MY-311786" target="_blank">MY-311786</a></td>
+<td>Malaysia 🇲🇾 马来西亚</td>
 </tr>
 <tr>
-<td>？</td>
-<td>？</td>
+<td><a href="https://www.postcrossing.com/postcards/RU-4600515" target="_blank">RU-4600515</a></td>
+<td>Russia 🇷🇺 俄罗斯</td>
 </tr>
 <tr>
-<td>？</td>
-<td>？</td>
-</tr>
-<tr>
-<td>？</td>
-<td>？</td>
-</tr>
-<tr>
-<td>？</td>
-<td>？</td>
-</tr>
-<tr>
-<td>？</td>
-<td>？</td>
-</tr>
-</tbody>
-</table>
-
-<h1 id="toc_3"></h1>
-
-<h2 id="toc_4">Sent Cards | 已寄出的明信片</h2>
-
-<table>
-<thead>
-<tr>
-<th>Number/编号</th>
-<th>To/寄到了</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>？</td>
-<td>？</td>
-</tr>
-<tr>
-<td>？</td>
-<td>？</td>
-</tr>
-<tr>
-<td>？</td>
-<td>？</td>
-</tr>
-<tr>
-<td>？</td>
-<td>？</td>
-</tr>
-<tr>
-<td>？</td>
-<td>？</td>
-</tr>
-<tr>
-<td>？</td>
-<td>？</td>
-</tr>
-<tr>
-<td>？</td>
-<td>？</td>
-</tr>
-<tr>
-<td>？</td>
-<td>？</td>
-</tr>
-<tr>
-<td>？</td>
-<td>？</td>
-</tr>
-<tr>
-<td>？</td>
-<td>？</td>
+<td><a href="https://www.postcrossing.com/postcards/NL-3383948" target="_blank">NL-3383948</a></td>
+<td>Netherlands 🇳🇱 荷兰</td>
 </tr>
 </tbody>
 </table>
@@ -1654,87 +1636,6 @@ ASIN: 9866616967<br/>
 </blockquote>
 
 <p><code>magnet:?xt=urn:btih:4A83E8481F5AB494B6936F0AF09AD02F116CD829&amp;dn=steve+jobs+2015+dvdscr+xvid+ac3+hq+hive+cm8&amp;tr=udp%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&amp;tr=udp%3A%2F%2Fglotorrents.pw%3A6969%2Fannounce</code></p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[2015年11月电影推荐]]></title>
-    <link href="http://kianli.com/14496470492282.html"/>
-    <updated>2015-12-09T15:44:09+08:00</updated>
-    <id>http://kianli.com/14496470492282.html</id>
-    <content type="html"><![CDATA[
-<p><img src="http://ww1.sinaimg.cn/large/621370d5gw1eyukzytqcpj21kw16o1kx.jpg" alt="poster"/></p>
-
-<pre><code>个人排序: Black Mass&gt; Bone Tomhawk | Ant Man&gt; The Little Prince&gt; The 33
-</code></pre>
-
-<h2 id="toc_0">一.Ant Man</h2>
-
-<blockquote>
-<p><a href="http://www.imdb.com/title/tt0478970">IMDb评分：7.6</a></p>
-</blockquote>
-
-<p><img src="http://ww4.sinaimg.cn/large/621370d5gw1eytggka9rlj20gp0nmmzj.jpg" alt="antman"/></p>
-
-<blockquote>
-<p>磁力链接<br/>
-magnet:?xt=urn:btih:41F6353B6BF3ED1D44DD15755A0F6DBD7C91B114&amp;dn=ant+man+2015+720p+hdrip+x264+aac+etrg&amp;tr=udp%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&amp;tr=udp%3A%2F%2Fglotorrents.pw%3A6969%2Fannounce</p>
-</blockquote>
-
-<span id="more"></span><!-- more -->
-
-<h2 id="toc_1">二.The 33</h2>
-
-<blockquote>
-<p><a href="http://www.imdb.com/title/tt2006295">IMDb评分:7.2</a></p>
-</blockquote>
-
-<p><img src="http://ww4.sinaimg.cn/large/621370d5gw1eytmkg2eyxj20nf0xcwh2.jpg" alt="the33"/></p>
-
-<blockquote>
-<p>磁力链接<br/>
-magnet:?xt=urn:btih:1D6C5CD501014793947EA4D3C4AC0E24E00CC756&amp;dn=the+33+2015+hdrip+xvid+ac3+evo&amp;tr=udp%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&amp;tr=udp%3A%2F%2Fglotorrents.pw%3A6969%2Fannounce</p>
-</blockquote>
-
-<h2 id="toc_2">三. Bone Tomhawk</h2>
-
-<blockquote>
-<p><a href="http://www.imdb.com/title/tt2494362">IMDb评分: 7.1</a></p>
-</blockquote>
-
-<p><img src="http://ww4.sinaimg.cn/large/621370d5gw1eytmakgi9uj20i20qogw8.jpg" alt="bonehawk"/></p>
-
-<blockquote>
-<p>磁力链接<br/>
-magnet:?xt=urn:btih:423888B463CE93F74EF914EEF4A085A31C99382D&amp;dn=bone+tomahawk+2015+brrip+xvid+ac3+evo&amp;tr=udp%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&amp;tr=udp%3A%2F%2Fglotorrents.pw%3A6969%2Fannounce</p>
-</blockquote>
-
-<h2 id="toc_3">四. Black Mass</h2>
-
-<blockquote>
-<p><a href="http://www.imdb.com/title/tt1355683">IMDb评分:7.3</a></p>
-</blockquote>
-
-<p><img src="http://ww2.sinaimg.cn/large/621370d5gw1eytme95pq3j20s415o46d.jpg" alt=""/></p>
-
-<blockquote>
-<p>磁力链接<br/>
-magnet:?xt=urn:btih:22D10EE6371B4A1BA259D003CC308D6A4577899C&amp;dn=black+mass+2015+720p+hc+hdrip+900mb+mkvcage&amp;tr=udp%3A%2F%2Fcoppersurfer.tk%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fglotorrents.pw%3A6969%2Fannounce</p>
-</blockquote>
-
-<h2 id="toc_4">五. Little Prince</h2>
-
-<blockquote>
-<p><a href="http://www.imdb.com/title/tt1754656">IMDb评分:7.7</a></p>
-</blockquote>
-
-<p><img src="http://ww4.sinaimg.cn/large/621370d5gw1eytmibu1doj20pa0yc43j.jpg" alt="littleprince"/></p>
-
-<blockquote>
-<p>磁力链接：<br/>
-magnet:?xt=urn:btih:69DB49264ACCFE1B3976CC952F4991ED87578360&amp;dn=the+little+prince+2015+hc+hdrip+xvid+etrg&amp;tr=udp%3A%2F%2F9.rarbg.me%3A2710%2Fannounce&amp;tr=udp%3A%2F%2Fglotorrents.pw%3A6969%2Fannounce</p>
-</blockquote>
 
 ]]></content>
   </entry>
