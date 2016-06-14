@@ -4,7 +4,7 @@
   <title><![CDATA[Kian的自留地]]></title>
   <link href="http://kianli.com/atom.xml" rel="self"/>
   <link href="http://kianli.com/"/>
-  <updated>2016-06-14T23:31:29+08:00</updated>
+  <updated>2016-06-14T23:31:52+08:00</updated>
   <id>http://kianli.com/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -71,6 +71,8 @@
 </tr>
 </tbody>
 </table>
+
+<span id="more"></span><!-- more -->
 
 <h1 id="toc_0"></h1>
 
