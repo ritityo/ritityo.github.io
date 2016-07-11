@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
     
-  Vultr日本服务器VPS配置笔记 - Kian的自留地
+  PokemonGo Niantic和墙 - Kian的自留地
   
   </title>
-  <meta name="keywords" content="vultr" />
+  
   
   <link href="atom.xml" rel="alternate" title="Kian的自留地" type="application/atom+xml">
     <link rel="stylesheet" href="asset/css/foundation.min.css" />
@@ -92,14 +92,14 @@
       <div class="markdown-body article-wrap">
        <div class="article">
           
-          <h1>Vultr日本服务器VPS配置笔记</h1>
+          <h1>PokemonGo Niantic和墙</h1>
      
         <div class="read-more clearfix">
-          <span class="date">2015/10/15</span>
+          <span class="date">2016/7/11</span>
 
           <span>posted in&nbsp;</span> 
           
-              <span class="posted-in"><a href='%E5%88%86%E4%BA%AB.html'>分享</a></span>
+              <span class="posted-in"><a href='%E8%AE%B0%E5%BD%95.html'>记录</a></span>
            
          
           <span class="comments">
@@ -112,44 +112,141 @@
       </div><!-- article -->
 
       <div class="article-content">
-      <h2 id="toc_0">为什么写这篇笔记</h2>
+      <p><img src="http://ww4.sinaimg.cn/large/72f96cbagw1f5qbjzi38mj21af0qe41u.jpg" alt="maxresdefault.jpg"/></p>
+
+<h3 id="toc_0">友情提示</h3>
 
 <blockquote>
-<p>之前看到<a href="http://bao3.org">bao3</a>大哥在博客里发布了一篇<a href="http://bao3.org/2015/08/16/%E5%9C%A8-Vultr%E4%B8%8A%E5%AE%89%E8%A3%85-Arch-linux/">在 Vultr上安装 Arch linux</a>的文章。<br/>
-在<a href="http://bao3.org">bao3</a>大哥的帮助下，完成了服务器的配置。几天使用下来，感觉非常不错。对于我来说Vultr的优势在于价格实惠，速度快，最重要的是提供snapshot功能，也就是说配置成功一台服务器，就可以克隆配置到新的服务器里。按照<a href="http://bao3.org">bao3</a>大哥的提示，选择了日本ip的服务器，选择日本服务器的原因很简单，因为日本ip可以让你能够访问一些限定日本ip的网站。<br/>
-<a href="http://bao3.org">bao3</a>大哥<a href="http://bao3.org/2015/08/16/%E5%9C%A8-Vultr%E4%B8%8A%E5%AE%89%E8%A3%85-Arch-linux/">在 Vultr上安装 Arch linux</a>一文中已经有了非常详细的步骤指引，但是对于像我这种技术渣来说，如果每一个步骤都变成傻瓜的形态应该是更好的。所以也就有了这一篇文章</p>
+<p>本文含有利益相关的成分 相关内容形同<a href="https://bandwagonhost.com/aff.php?aff=5317&pid=12"target="_blank"><a href="https://bandwagonhost.com/aff.php?aff=5317&amp;pid=12">https://bandwagonhost.com/aff.php?aff=5317&amp;pid=12</a></a>  的含小尾巴超链接</p>
 </blockquote>
 
-<h2 id="toc_1">准备工作</h2>
+<h1 id="toc_1"></h1>
+
+<h3 id="toc_2">关于火爆的PokemonGo</h3>
 
 <blockquote>
-<p>1: Paypal帐号注册 </p>
-
 <blockquote>
-<p>参考：<a href="http://www.extrabux.com/blog/2013/12/checkout-paypal/">如何注册Paypal帐号并关联银联信用卡</a>一文</p>
+<p><img src="http://ww3.sinaimg.cn/large/72f96cbagw1f5qdbegr8bj21kw0xqkgi.jpg" alt="pokemon-go-nick_statt-screenshots-1.0.jpg"/></p>
+</blockquote>
 </blockquote>
 
-<p>2: ArchLinux的iso镜像:</p>
+<p>最近这两天里PokemonGo，这款由Niantic Labs和任天堂联手推出基于虚拟现实(Virtual Reality)和定位社交服务(Location-based Service)的手机游戏已经引爆了火墙内外</p>
 
 <blockquote>
-<p>参考:<a href="http://bao3.org/2015/08/16/%E5%9C%A8-Vultr%E4%B8%8A%E5%AE%89%E8%A3%85-Arch-linux/">在 Vultr上安装 Arch linux</a>一<a href="http://bao3.org/2015/08/16/%E5%9C%A8-Vultr%E4%B8%8A%E5%AE%89%E8%A3%85-Arch-linux/">在 Vultr上安装 Arch linux</a>文中给出的镜像地址:</p>
-
-<p><code>http://ftp.jaist.ac.jp/pub/Linux/ArchLinux/iso/2015.08.01/archlinux-2015.08.01-dual.iso</code></p>
+<blockquote>
+<p><img src="http://ww3.sinaimg.cn/large/72f96cbagw1f5qc7ojfo1j20ge0tcjta.jpg" alt="CnFAFTUXgAENnFC.jpg"/></p>
 </blockquote>
 </blockquote>
 
 <span id="more"></span><!-- more -->
 
-<h2 id="toc_2">Vultr帐号的注册</h2>
+<p>以下的新闻报道也可以充分地证明这款手游的魔力</p>
 
 <blockquote>
-<p>1: 注册Vultr:</p>
-
 <blockquote>
-<p>建议可以使用我的邀请注册链接来注册使用（双方获利 $$ ）<a href="http://www.vultr.com/?ref=6854006">我的Vultr邀请注册链接</a></p>
+<p><mark>1</mark>福布斯Forbes: PokemonGo即将超越Twitter，成为android设备上日均活跃用户最多的应用 <a href="http://www.forbes.com/sites/jasonevangelho/2016/07/10/pokemon-go-about-to-surpass-twitter-in-daily-active-users/#682aafda5174"target="_blank">原文</a>  <img src="http://ww4.sinaimg.cn/large/72f96cbagw1f5qc9zik9aj20gv0ddwfl.jpg" alt="Snip20160711_4.png"/></p>
+
+<p><mark>2</mark>TheVerge: PokemonGo使任天堂公司市值增值了75亿美金 <a href="http://www.theverge.com/2016/7/11/12147600/nintendos-stock-pokemon-go"target="_blank">原文</a></p>
+
+<p><mark>3</mark>卫报TheGuardian: 劫匪利用PokemonGo实施抢劫 <a href="http://www.theverge.com/2016/7/11/12147600/nintendos-stock-pokemon-gohttps://www.theguardian.com/technology/2016/jul/10/pokemon-go-armed-robbers-dead-body"target="_blank">原文</a></p>
+</blockquote>
 </blockquote>
 
-<p>2: 具体步骤 <a href="http://bao3.org/2015/08/16/%E5%9C%A8-Vultr%E4%B8%8A%E5%AE%89%E8%A3%85-Arch-linux/">整理中,目前可以参考Bao3博客里的文章</a></p>
+<h1 id="toc_3"></h1>
+
+<h3 id="toc_4">关于Niantic Labs</h3>
+
+<blockquote>
+<blockquote>
+<p><img src="http://ww3.sinaimg.cn/large/72f96cbagw1f5qdk5wnz2j207x0c0gm0.jpg" alt="Niantic_Labs_logo.png"/><br/>
+维基百科简介：<a href="https://en.wikipedia.org/wiki/Niantic%2C_Inc."target="_blank">Wikipedia: Niantic Inc</a></p>
+</blockquote>
+</blockquote>
+
+<p>对于这家公司,之前在Google内部创业时带来的那款Ingress也是让我在儿子出生到7个月之间玩了很久，Niantic Labs在Location-based Service上的积累是非常丰富的，它的坚持，终于在结合了VR之后开始获得了收获，恭喜！</p>
+
+<h1 id="toc_5"></h1>
+
+<h3 id="toc_6">关于大墙内的玩家们</h3>
+
+<p>在墙内一众玩家们从开始时淘宝上炒热了新西兰、澳大利亚区的App Store的帐号到发现因为任天堂和Niantic Labs锁区之后各种『助手类』软件跟进热点提供破解版的PokemonGo的下载，关于这种破解版的介绍大家可以看一下这篇微信文章: </p>
+
+<blockquote>
+<blockquote>
+<p>appsolution: <a href="http://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2650492765&idx=1&sn=77356a9ab46ee44a0c0556e0201ca58e&scene=1&srcid=0711VbtcFKoArVdFeFLPBkfy#rd"target="_blank">用「助手」玩Pokemon GO, 是在扼杀它的未来</a><br/>
+<img src="http://ww1.sinaimg.cn/large/72f96cbagw1f5qchzas90j205s05saad.jpg" alt="api.png"/></p>
+</blockquote>
+</blockquote>
+
+<p>文中提到破解锁区的这种飞机玩法的确在Niantic上一款没有爆款的手游Ingress上来说对游戏和玩家的伤害非常之大<br/>
+但是因为这次任天堂和Niantic Labs的锁区动作是直接在地球上的人口最稠密区画了一个长方形 中国（不含新疆和东北的部分地区）、印度以及日本本土都在锁区范围之内</p>
+
+<blockquote>
+<blockquote>
+<p><img src="http://ww1.sinaimg.cn/large/72f96cbagw1f5qd2ctdvhj20dt089wev.jpg" alt="2016071115254393586.jpg"/></p>
+</blockquote>
+</blockquote>
+
+<p>如果用PokemonGo ip Block在twitter上搜索的话，你会得到如下的吐槽瀑布流：</p>
+
+<blockquote>
+<blockquote>
+<p><img src="http://ww3.sinaimg.cn/large/72f96cbagw1f5qd88vwrhj20p10g5tcd.jpg" alt="Snip20160711_6.png"/></p>
+</blockquote>
+</blockquote>
+
+<p>直达传送门: <a href="https://twitter.com/search?q=pokemongo%20ip%20block&src=typd"target="_blank">这里</a></p>
+
+<p><mark>稍有常识的人不难发现，任天堂和Niantic Labs肯定是不会把锁区的这样的行为持续下去的 如此庞大的潜在用户群和这样一款用户粘性极高的手游可以摩擦出来的火花以及背后可以带来的经济利益应该是市值刚增长了70多亿美金的任天堂所无法拒绝的</mark></p>
+
+<h1 id="toc_7"></h1>
+
+<h3 id="toc_8">以下内容跑得快的香港记者不一定会告诉你</h3>
+
+<p><code>他们跑得快是为了刷到皮卡丘</code></p>
+
+<blockquote>
+<p><mark>1</mark> 你的iOS设备上有这款游戏需要有的Google帐号吗？</p>
+
+<blockquote>
+<p>这款游戏主要就是通过Google帐号来实现社交的功能，考虑到发布者任天堂公司和Niantic Labs这次发布这款游戏所获得的成功有些当年Flappy Bird的意思，火墙之内应该不会有代理公司代理这款游戏。被这款游戏吸引到的，主体是90后，可能他们甚至都没有Google帐号。在他们记事的时候起，生活里提到帐号和邮箱，他们的第一反应应该就是QQ了。<br/>
+上周六就有一位号称杭州彭于晏的高阉值帅哥请我帮忙注册Google帐号</p>
+</blockquote>
+
+<p><mark>2</mark> 你有稳定的独立的网络加速app吗？</p>
+
+<blockquote>
+<p>续着上一个问题继续讲下来，此处加速器应该是居家旅行，出门抓宠物宝贝们的必备良品了，所以你需要一个完整的网络。这时候，你能想到在App Store里去下载免费的加速app，别人应该也会想到。用户越多，服务器压力越大，也就是说不稳定性会直线上升。肯定有<code>老司机</code> 提到像astrill这样的老牌付费网络加速服务商，但是树大招风啊....<br/>
+所以这个时候，你可以拥有一个自己的服务器，不光可以满足自己的需求，也能造福你心仪的异性<br/>
+<code>私有服务器</code>这个词一出来，很多人的第一反应就是价格了。<br/>
+事实上，真的没我们想象的那么昂贵，套用一句广告语：</p>
+</blockquote>
+</blockquote>
+
+<p><mark>好东西，也可以不贵的</mark></p>
+
+<h1 id="toc_9"></h1>
+
+<h3 id="toc_10">关于服务器</h3>
+
+<p><mark>1</mark> 购买和设定: <a href="http://kianli.com/14517065679125.html"target="_blank">可能是最傻瓜的VPS-Bandwagonhost</a></p>
+
+<p><mark>2</mark> 日常维护: <a href="http://kianli.com/14602751890857.html"target="_blank">搬瓦工控制器<br/>
+</a></p>
+
+<h3 id="toc_11">关于iOS上如何运行私有服务器</h3>
+
+<p><mark>1</mark> <a href="http://kianli.com/14459569074725.html"target="_blank">Surge: 可能是iOS用户最需要的调试工具</a></p>
+
+<p><mark>2</mark> <a href="http://kianli.com/14571706954065.html"target="_blank">Shadowrocket for iOS: 可能是值得你去花6元的iOS应用<br/>
+</a></p>
+
+<h1 id="toc_12"></h1>
+
+<h3 id="toc_13">音乐</h3>
+
+<blockquote>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="http://music.163.com/outchain/player?type=2&id=16628482&auto=1&height=66"></iframe>
 </blockquote>
 
       
@@ -164,16 +261,13 @@
         <div class="large-6 columns">
         <p class="text-left" style="padding:15px 0px;">
       
-          <a href="14449259432185.html" 
-          title="Previous Post: 双十一优惠券自动领取">&laquo; 双十一优惠券自动领取</a>
-      
         </p>
         </div>
         <div class="large-6 columns">
       <p class="text-right" style="padding:15px 0px;">
       
-          <a  href="14447281375532.html" 
-          title="Next Post: 2015年10月电影推荐">2015年10月电影推荐 &raquo;</a>
+          <a  href="14677181823466.html" 
+          title="Next Post: 时光一去不复回">时光一去不复回 &raquo;</a>
       
       </p>
         </div>
