@@ -18,7 +18,13 @@
   <script src="asset/highlightjs/highlight.pack.js"></script>
   <link href="asset/highlightjs/styles/github.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script>hljs.initHighlightingOnLoad();</script>
-
+<script type="text/javascript">
+  function before_search(){
+    var searchVal = 'site:kianli.com ' + document.getElementById('search_input').value;
+    document.getElementById('search_q').value = searchVal;
+    return true;
+  }
+</script>
   </head>
   <body class="antialiased hide-extras">
     
@@ -33,16 +39,18 @@
   <div class="row">
       <div style="position: relative;width:100%;"><div style="position: absolute; width:100%;">
         <ul id="main-menu" class="left">
-        <li id="menu_item_index"><a href="index.html">HOME</a></li>
-        <li id="menu_item_archives"><a href="archives.html">Archives</a></li>
-        <li id="menu_item_about"><a href="about.html">ABOUT</a></li>
+        
+        <li id=""><a target="self" href="index.html">Home</a></li>
+        
+        <li id=""><a target="_self" href="archives.html">Archives</a></li>
+        
         </ul>
 
         <ul class="right" id="search-wrap">
           <li>
-<form target="_blank" action="http://google.com/search" method="get">
-    <input type="hidden" name="q" value="site:kianli.com" />
-    <input tabindex="1" type="search" name="q"  placeholder="Search"/>
+<form target="_blank" onsubmit="return before_search();" action="http://google.com/search" method="get">
+    <input type="hidden" id="search_q" name="q" value="" />
+    <input tabindex="1" type="search" id="search_input"  placeholder="Search"/>
 </form>
 </li>
           </ul>
@@ -82,6 +90,9 @@
 
 
         <section id="main-content" role="main" class="scroll-container">
+        
+       
+
  <script type="text/javascript">
 	$(function(){
 		$('#menu_item_index').addClass('is_active');
@@ -91,6 +102,56 @@
 	<div class="large-8 medium-8 columns">
 		<div class="markdown-body home-categories">
 		
+			<div class="article">
+                <a class="clearlink" href="14496470492282.html">
+                
+                  <h1>2015年11月电影推荐</h1>
+                  <div class="a-content">
+                      
+                      <div class="a-content-text">
+                        
+                        	<p><img src="http://ww1.sinaimg.cn/large/621370d5gw1eyukzytqcpj21kw16o1kx.jpg" alt="poster"/></p>
+
+<pre><code>个人排序: Black Mass&gt; Bone Tomhawk | Ant Man&gt; The Little Prince&gt; The 33
+</code></pre>
+
+<h2 id="toc_0">一.Ant Man</h2>
+
+<blockquote>
+<p><a href="http://www.imdb.com/title/tt0478970">IMDb评分：7.6</a></p>
+</blockquote>
+
+<p><img src="http://ww4.sinaimg.cn/large/621370d5gw1eytggka9rlj20gp0nmmzj.jpg" alt="antman"/></p>
+
+<blockquote>
+<p>磁力链接<br/>
+magnet:?xt=urn:btih:41F6353B6BF3ED1D44DD15755A0F6DBD7C91B114&amp;dn=ant+man+2015+720p+hdrip+x264+aac+etrg&amp;tr=udp%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&amp;tr=udp%3A%2F%2Fglotorrents.pw%3A6969%2Fannounce</p>
+</blockquote>
+
+
+                        
+                      </div>
+                  </div>
+                </a>
+                <div class="read-more clearfix">
+                  <div class="more-left left">
+                   <a href="14496470492282.html">Read more</a>&nbsp;&nbsp; 
+                    <span class="date">2015/12/9</span>
+                    <span>posted in&nbsp;</span> 
+          				  
+          					    <span class="posted-in"><a href='%E5%88%86%E4%BA%AB.html'>分享</a></span>
+          				   
+                  </div>
+                  <div class="more-right right">
+                  <span class="comments">
+                      
+
+                       
+                  </span>
+                  </div>
+                </div>
+              </div><!-- article -->
+        
 			<div class="article">
                 <a class="clearlink" href="14467126899793.html">
                 
@@ -118,58 +179,6 @@
                   <div class="more-left left">
                    <a href="14467126899793.html">Read more</a>&nbsp;&nbsp; 
                     <span class="date">2015/11/5</span>
-                    <span>posted in&nbsp;</span> 
-          				  
-          					    <span class="posted-in"><a href='%E5%88%86%E4%BA%AB.html'>分享</a></span>
-          				   
-                  </div>
-                  <div class="more-right right">
-                  <span class="comments">
-                      
-
-                       
-                  </span>
-                  </div>
-                </div>
-              </div><!-- article -->
-        
-			<div class="article">
-                <a class="clearlink" href="14459569074725.html">
-                
-                  <h1>Surge: 可能是iOS用户最需要的调试工具</h1>
-                  <div class="a-content">
-                      
-                      <div class="a-content-text">
-                        
-                        	<p><img src="http://ww4.sinaimg.cn/large/621370d5gw1exgr42eb5ej215k0i0di2.jpg" alt="Store"/></p>
-
-<p>请允许我用一首歌表达下Surge给我的网络访问带来的变化，以及为什么我会向朋友们推荐这款应用：</p>
-
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="http://music.163.com/outchain/player?type=2&id=3164310&auto=0&height=66"></iframe>
-
-<h2 id="toc_0">这是什么软件？</h2>
-
-<p>这是一款刚刚上线的基于 iOS 9 的新特性 Network Extension 开发的网络调试工具，较适用于开发人员，可以从 iOS 9 设备上的任何应用程序里捕获所有 HTTP / HTTPS/ TCP 流量，并重定向到一个 HTTP/ HTTPS/ SOCKS5 代理服务器上，需要一定的使用经验。<br/>
-简而言之，这款应用是可以帮你调试你的网络的一个app, 通过这款软件你可以实现想上的网站可以上，不想看到的东西也可以不再来烦你。</p>
-
-<p><mark>需要你有一定的动手能力</mark></p>
-
-<p>这款软件目前售价是人民币68元<br/>
-<a href="https://itunes.apple.com/us/app/surge-web-developer-tool-proxy/id1040100637?mt=8&amp;uo=8&amp;at=1000l7mq">美区</a>  |  <a href="https://itunes.apple.com/cn/app/surge-web-developer-tool-proxy/id1040100637?mt=8&amp;uo=8&amp;at=1000l7mq">中国区</a> </p>
-
-<h4 id="toc_1">有破解版吗？</h4>
-
-<p>没有且希望不会有......</p>
-
-
-                        
-                      </div>
-                  </div>
-                </a>
-                <div class="read-more clearfix">
-                  <div class="more-left left">
-                   <a href="14459569074725.html">Read more</a>&nbsp;&nbsp; 
-                    <span class="date">2015/10/27</span>
                     <span>posted in&nbsp;</span> 
           				  
           					    <span class="posted-in"><a href='%E5%88%86%E4%BA%AB.html'>分享</a></span>
@@ -218,16 +227,19 @@
 
 
 
-<a class="quora" href="https://www.quora.com/profile/Kian-Li" title="Quora">Quora</a>
-<a class="instagram" href="https://instagram.com/ritityo/" title="Instagram">Instagram</a>
-<a class="weibo" target="_blank" href="http://weibo.com/lioz" title="weibo">Weibo</a>
-<a class="twitter" target="_blank" href="https://twitter.com/lioz" title="Twitter">Twitter</a>
+<a target="_blank" class="quora" href="https://www.quora.com/profile/Kian-Li" title="Quora">Quora</a>
+<a target="_blank" class="instagram" href="https://instagram.com/ritityo/" title="Instagram">Instagram</a>
+<a target="_blank" class="weibo" href="http://weibo.com/lioz" title="weibo">Weibo</a>
+<a target="_blank" class="twitter" target="_blank" href="https://twitter.com/lioz" title="Twitter">Twitter</a>
 
 
-  <a class="rss" href="atom.xml" title="RSS">RSS</a>
+  <a target="_blank" class="rss" href="atom.xml" title="RSS">RSS</a>
                 
               	 </div>
           	</div>
+
+             
+
               <div id="site-categories" class="side-item ">
                 <div class="side-header">
                   <h2>Categories</h2>
@@ -257,6 +269,24 @@
 	      
 		      
 			      <li class="post">
+			        <a href="15090886809993.html">**又到了一年一度的双十一了!**</a>
+			      </li>
+		     
+		  
+		      
+			      <li class="post">
+			        <a href="14763504898652.html">xdf某总</a>
+			      </li>
+		     
+		  
+		      
+			      <li class="post">
+			        <a href="14729203084693.html">斐讯K2刷机记</a>
+			      </li>
+		     
+		  
+		      
+			      <li class="post">
 			        <a href="14686858609415.html">推剧：The Night Of (Updating)</a>
 			      </li>
 		     
@@ -264,24 +294,6 @@
 		      
 			      <li class="post">
 			        <a href="14682459583232.html">PokemonGo Niantic和墙</a>
-			      </li>
-		     
-		  
-		      
-			      <li class="post">
-			        <a href="14677181823466.html">时光一去不复回</a>
-			      </li>
-		     
-		  
-		      
-			      <li class="post">
-			        <a href="14669147667001.html">荐书 Speed Reading - The Comprehensive Guide To Speed Reading - Increase Your Reading Speed By 300% In Less Than 24 Hours</a>
-			      </li>
-		     
-		  
-		      
-			      <li class="post">
-			        <a href="14659153935241.html">荐书：TED Talks: The Official TED Guide to Public Speaking</a>
 			      </li>
 		     
 		  
@@ -318,41 +330,6 @@
 		  		</ul>
                 </div>
               </div>
-
-               <div id="site-categories" class="side-item">
-                <div class="side-header">
-                  <h2>Blog Rolls </h2>
-                </div>
-                <div class="side-content">
-
-
-
-<li><a href="http://yeyaxi.com/" target="_blank">ss1271’s Site</a></li>
-<li><a href="http://bao3.org/" target="_blank">活着真好</a></li>
-<li><a href="http://xiaozhou.net/" target="_blank">iTimothy</a></li>
-<li><a href="http://www.aiboom.com/" target="_blank">AiBoom</a></li>
-<li><a href="http://nathanli.com/" target="_blank">Nathan Li</a></li>
-<li><a href="http://www.vultr.com/?ref=6854006/" target="_blank">Vultr</a></li>
-<li><a href="http://qiaoxiaoguang.xyz/" target="_blank">晓光｜iMax</a></li>
-<li><a href="https://bandwagonhost.com/aff.php?aff=5317" target="_blank">瓦工BandWagon</a></li>
-<li><a href="http://c.duomai.com/track.php?k=wRHdo1Ddm0DZpVXZmkDN2ITPklWYmcTM3QDMy0DZp9VZ0l2cmYibj5SbvNmLlJ3b0NHdm92cvJ3Yp1mL3d3dGJTJGJTJBNTJ" target="_blank">微软商城</a></li>
-
-<div id="site-categories" class="side-item">
-<div class="side-header">
-<h2>Xiami Music </h2>
-</div>
-<div class="side-content">                
-<embed src="http://www.xiami.com/widget/582296_582296_258_460_d90000_333333_0/shufflePlayer.swf" type="application/x-shockwave-flash" width="258" height="460" wmode="opaque"></embed>
-
-<div id="site-categories" class="side-item">
-<div class="side-header">
-<h2>Twitter </h2>
-</div>
-<div class="side-content">    
-<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/lioz" data-widget-id="707070409124892673">Tweets by @lioz</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-</ul>
         </div><!-- sidebar -->
       </div><!-- hide for small -->
 </div><!-- large 4 -->
@@ -390,7 +367,6 @@ Theme used <a target="_blank" href="http://github.com">GitHub CSS</a>.</p>
       });
      
     </script>
-
 
     
 

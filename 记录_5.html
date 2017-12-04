@@ -18,7 +18,13 @@
   <script src="asset/highlightjs/highlight.pack.js"></script>
   <link href="asset/highlightjs/styles/github.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script>hljs.initHighlightingOnLoad();</script>
-
+<script type="text/javascript">
+  function before_search(){
+    var searchVal = 'site:kianli.com ' + document.getElementById('search_input').value;
+    document.getElementById('search_q').value = searchVal;
+    return true;
+  }
+</script>
   </head>
   <body class="antialiased hide-extras">
     
@@ -33,16 +39,18 @@
   <div class="row">
       <div style="position: relative;width:100%;"><div style="position: absolute; width:100%;">
         <ul id="main-menu" class="left">
-        <li id="menu_item_index"><a href="index.html">HOME</a></li>
-        <li id="menu_item_archives"><a href="archives.html">Archives</a></li>
-        <li id="menu_item_about"><a href="about.html">ABOUT</a></li>
+        
+        <li id=""><a target="self" href="index.html">Home</a></li>
+        
+        <li id=""><a target="_self" href="archives.html">Archives</a></li>
+        
         </ul>
 
         <ul class="right" id="search-wrap">
           <li>
-<form target="_blank" action="http://google.com/search" method="get">
-    <input type="hidden" name="q" value="site:kianli.com" />
-    <input tabindex="1" type="search" name="q"  placeholder="Search"/>
+<form target="_blank" onsubmit="return before_search();" action="http://google.com/search" method="get">
+    <input type="hidden" id="search_q" name="q" value="" />
+    <input tabindex="1" type="search" id="search_input"  placeholder="Search"/>
 </form>
 </li>
           </ul>
@@ -82,6 +90,9 @@
 
 
         <section id="main-content" role="main" class="scroll-container">
+        
+       
+
  <script type="text/javascript">
 	$(function(){
 		$('#menu_item_index').addClass('is_active');
@@ -92,29 +103,20 @@
 		<div class="markdown-body home-categories">
 		
 			<div class="article">
-                <a class="clearlink" href="14515826478538.html">
+                <a class="clearlink" href="14524306260222.html">
                 
-                  <h1>你好2016</h1>
+                  <h1>我的微信2015</h1>
                   <div class="a-content">
                       
                       <div class="a-content-text">
                         
-                        	<p><img src="http://ww3.sinaimg.cn/large/621370d5gw1ezq1n2d1izg20i207qwim.gif" alt="2016gif"/></p>
+                        	<p><img src="http://ww2.sinaimg.cn/large/621370d5gw1ezup9aygfoj20k00zkjuh.jpg" alt="Funny"/></p>
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=450 height=86 src="http://music.163.com/outchain/player?type=2&id=38846698&auto=0&height=66"></iframe>
+<p>今天下午，一个题为“当你打开这个，你和微信的故事就这样发生了”在朋友圈里爆炸式的刷屏让我的第一反应是不是微信更新了版本，在app启动界面展示一些用户和微信的一些节点事件？<br/>
+之后在2010年教过的一位中级口译的学员的帮助下找到了链接：<br/>
+<a href="http://t.cn/R4CWfsK">建议手机端进入</a></p>
 
-<h2 id="toc_0">收获</h2>
-
-<h3 id="toc_1">生活</h3>
-
-<p>1、最大的收获毫无疑问就是儿子的到来，从刚出生头三天的打鸡血到领导做月子的一个月“双脱手”再到第二个月的为他改掉自己睡觉模式再到现在，这个小人儿已经让我的生活发生了如此之大的改变。爸爸会继续学习如何做一个陪你成长的好爸爸的 :-)</p>
-
-<p>2、在领导的批准下第一次接触肾机，来年如果有机会的话，还是会考虑回到安卓</p>
-
-<p>3、入手/续费了几个域名：自己相关的有三个 <a href="http://kianli.com">kianli.com</a>  、 <a href="http://lizhichao.xyz">lizhichao.xyz</a> 、 <a href="http://zhichao.li">zhichao.li</a> ; 给儿子买了个域名： <a href="http://nathanli.com">nathanli.com</a></p>
-
-<p>4、2015年里玩Postcrosing的频率真的不算高<br/>
-<img src="http://ww2.sinaimg.cn/large/621370d5gw1ezt90jvcrpj20eg0ahdh2.jpg" alt="postcrossing"/></p>
+<p>在Google搜索之后发现，原来今天是微信公开课PRO版（这个名字无法让人联想到论坛、峰会）召开，新闻链接: <a href="http://tech.qq.com/a/20160110/017078.htm">戳此处</a></p>
 
 
                         
@@ -123,8 +125,8 @@
                 </a>
                 <div class="read-more clearfix">
                   <div class="more-left left">
-                   <a href="14515826478538.html">Read more</a>&nbsp;&nbsp; 
-                    <span class="date">2016/1/1</span>
+                   <a href="14524306260222.html">Read more</a>&nbsp;&nbsp; 
+                    <span class="date">2016/1/10</span>
                     <span>posted in&nbsp;</span> 
           				  
           					    <span class="posted-in"><a href='%E8%AE%B0%E5%BD%95.html'>记录</a></span>
@@ -141,34 +143,21 @@
               </div><!-- article -->
         
 			<div class="article">
-                <a class="clearlink" href="14465300285700.html">
+                <a class="clearlink" href="14517065679125.html">
                 
-                  <h1>适合新手的Markdown编辑器</h1>
+                  <h1>可能是最傻瓜的VPS-Bandwagonhost</h1>
                   <div class="a-content">
                       
                       <div class="a-content-text">
                         
-                        	<p>作为Google Reader时代可能吧文章的忠实读者，昨天和<a href="https://zh.wikipedia.org/wiki/%E4%BC%8D%E5%98%89%E8%B4%A4">阿<del>婵</del>禅</a>在Telegram上竟然聊上了几句！注意，此处我如此激动的原因非常简单：<a href="https://zh.wikipedia.org/wiki/%E4%BC%8D%E5%98%89%E8%B4%A4">阿禅</a>是在<a href="https://zh.wikipedia.org/wiki/%E4%BC%8D%E5%98%89%E8%B4%A4">维基百科</a>上是有<del>自己编的</del>个人词条的。在<del>吹嘘拍马</del>用心聊天时，说到非常喜欢可能吧的文章排版非常喜欢，自己第一次看到Markdown写出来的博客的时候，第一反应是：这是可能吧排版的黑白版吧。</p>
+                        	<p><img src="http://ww2.sinaimg.cn/large/621370d5gw1ezl0gm6dwxj20h80apq4t.jpg" alt="搬瓦工"/></p>
 
-<p><mark>用图说话</mark></p>
+<p><a href="https://bandwagonhost.com/aff.php?aff=5317">Bandwagonhost</a> 国内习惯称之为搬瓦工，美国IT7旗下的一款便宜年付VPS产品，因为价格便宜、稳定性好，得到不少的新用户和需要节省成本的用户喜欢，年付VPS最低3.99美元，拥有洛杉矶、凤凰城、佛罗里达、荷兰数据中心，而且可以任意切换机房达到随机更换IP的目的。<br/>
+目前最为划算的套餐只有<code>Bandwagon 10G - PROMO</code> 年付仅需要19.99美元，直达链接在此: <a href="https://bandwagonhost.com/aff.php?aff=5317&amp;pid=12">Bandwagon 10G PROMO</a></p>
 
-<blockquote>
-<p><img src="http://ww1.sinaimg.cn/large/621370d5gw1exnrrl3mnxj20xu0l20zq.jpg" alt="可能吧文章截图"/> </p>
-</blockquote>
+<h2 id="toc_0">什么是VPS</h2>
 
-<p>在<del>谈笑风声</del><mark>马屁拍到尴尬</mark>之后就开始放Google搜索，找了一圈，也<del>试用</del><mark>安装再卸载</mark>了好一些软件，最后留下的就是一款叫做Haroopad的Markdown编辑软件。这边感谢推荐这款Haroopad Windows版的<a href="http://www.huashengke.org/2015/03/02/markdownnotes/">花生壳</a> 经过使用，Haroopad的Mac版也非常堪用。</p>
-
-<h2 id="toc_0">一些说明</h2>
-
-<blockquote>
-<p>我的Mac上因为之前自己白痴，找了网上的hexo教程，一个失败就直接换一个操作，导致系统混乱，连 <a href="http://bao3.org">Bao3</a>也摊手了。 之后在 <a href="http://bao3.org">Bao3</a>的 <del>帮助</del> <mark>代办下</mark>架设成功， <a href="http://bao3.org">Bao3</a>哥推荐了我使用<a href="http://zh.mweb.im/">MWeb Writer</a>，在他水银泻地一般地操作之后还顺带帮我写了个发布博客的小程序。虽然到最后我还是没有看懂，但是大概意思是通过<a href="http://zh.mweb.im/">MWeb Writer</a>写完，把MWeb Writer本地文件夹里的内容直接发布到github page上的形式完成。<a href="http://zh.mweb.im/">MWeb Writer</a>已经是一款非常优秀的Markdown编辑软件了，为什么还要找一款替代品？ 因为我<mark>不甘心</mark>，之后在Windows上配置成功Hexo, 开了个专门晒娃的博客。在断断续续地使用中意识到 hexo new post 这个命令指示生成md文件而已，但是里面的编辑还是需要自己敲对才行。</p>
-</blockquote>
-
-<h2 id="toc_1">Haroopad</h2>
-
-<h3 id="toc_2"><mark>界面</mark></h3>
-
-<p><img src="http://ww2.sinaimg.cn/large/621370d5gw1exnquafmhpj20vk0jsjva.jpg" alt="HaroopadInterface"/></p>
+<p><code>VPS（Virtual Private Server 虚拟专用服务器）技术，将一部服务器分割成多个虚拟专享服务器的优质服务。实现VPS的技术分为容器技术，和虚拟化技术。在容器或虚拟机中，每个VPS都可分配独立公网IP地址、独立操作系统、实现不同VPS间磁盘空间、内存、CPU资源、进程和系统配置的隔离，为用户和应用程序模拟出“独占”使用计算资源的体验。VPS可以像独立服务器一样，重装操作系统，安装程序，单独重启服务器。简而言之，一台可供你调教的服务器。</code></p>
 
 
                         
@@ -177,8 +166,8 @@
                 </a>
                 <div class="read-more clearfix">
                   <div class="more-left left">
-                   <a href="14465300285700.html">Read more</a>&nbsp;&nbsp; 
-                    <span class="date">2015/11/3</span>
+                   <a href="14517065679125.html">Read more</a>&nbsp;&nbsp; 
+                    <span class="date">2016/1/2</span>
                     <span>posted in&nbsp;</span> 
           				  
           					    <span class="posted-in"><a href='%E8%AE%B0%E5%BD%95.html'>记录</a></span>
@@ -227,16 +216,19 @@
 
 
 
-<a class="quora" href="https://www.quora.com/profile/Kian-Li" title="Quora">Quora</a>
-<a class="instagram" href="https://instagram.com/ritityo/" title="Instagram">Instagram</a>
-<a class="weibo" target="_blank" href="http://weibo.com/lioz" title="weibo">Weibo</a>
-<a class="twitter" target="_blank" href="https://twitter.com/lioz" title="Twitter">Twitter</a>
+<a target="_blank" class="quora" href="https://www.quora.com/profile/Kian-Li" title="Quora">Quora</a>
+<a target="_blank" class="instagram" href="https://instagram.com/ritityo/" title="Instagram">Instagram</a>
+<a target="_blank" class="weibo" href="http://weibo.com/lioz" title="weibo">Weibo</a>
+<a target="_blank" class="twitter" target="_blank" href="https://twitter.com/lioz" title="Twitter">Twitter</a>
 
 
-  <a class="rss" href="atom.xml" title="RSS">RSS</a>
+  <a target="_blank" class="rss" href="atom.xml" title="RSS">RSS</a>
                 
               	 </div>
           	</div>
+
+             
+
               <div id="site-categories" class="side-item ">
                 <div class="side-header">
                   <h2>Categories</h2>
@@ -266,6 +258,24 @@
 	      
 		      
 			      <li class="post">
+			        <a href="15090886809993.html">**又到了一年一度的双十一了!**</a>
+			      </li>
+		     
+		  
+		      
+			      <li class="post">
+			        <a href="14763504898652.html">xdf某总</a>
+			      </li>
+		     
+		  
+		      
+			      <li class="post">
+			        <a href="14729203084693.html">斐讯K2刷机记</a>
+			      </li>
+		     
+		  
+		      
+			      <li class="post">
 			        <a href="14686858609415.html">推剧：The Night Of (Updating)</a>
 			      </li>
 		     
@@ -273,24 +283,6 @@
 		      
 			      <li class="post">
 			        <a href="14682459583232.html">PokemonGo Niantic和墙</a>
-			      </li>
-		     
-		  
-		      
-			      <li class="post">
-			        <a href="14677181823466.html">时光一去不复回</a>
-			      </li>
-		     
-		  
-		      
-			      <li class="post">
-			        <a href="14669147667001.html">荐书 Speed Reading - The Comprehensive Guide To Speed Reading - Increase Your Reading Speed By 300% In Less Than 24 Hours</a>
-			      </li>
-		     
-		  
-		      
-			      <li class="post">
-			        <a href="14659153935241.html">荐书：TED Talks: The Official TED Guide to Public Speaking</a>
 			      </li>
 		     
 		  
@@ -327,41 +319,6 @@
 		  		</ul>
                 </div>
               </div>
-
-               <div id="site-categories" class="side-item">
-                <div class="side-header">
-                  <h2>Blog Rolls </h2>
-                </div>
-                <div class="side-content">
-
-
-
-<li><a href="http://yeyaxi.com/" target="_blank">ss1271’s Site</a></li>
-<li><a href="http://bao3.org/" target="_blank">活着真好</a></li>
-<li><a href="http://xiaozhou.net/" target="_blank">iTimothy</a></li>
-<li><a href="http://www.aiboom.com/" target="_blank">AiBoom</a></li>
-<li><a href="http://nathanli.com/" target="_blank">Nathan Li</a></li>
-<li><a href="http://www.vultr.com/?ref=6854006/" target="_blank">Vultr</a></li>
-<li><a href="http://qiaoxiaoguang.xyz/" target="_blank">晓光｜iMax</a></li>
-<li><a href="https://bandwagonhost.com/aff.php?aff=5317" target="_blank">瓦工BandWagon</a></li>
-<li><a href="http://c.duomai.com/track.php?k=wRHdo1Ddm0DZpVXZmkDN2ITPklWYmcTM3QDMy0DZp9VZ0l2cmYibj5SbvNmLlJ3b0NHdm92cvJ3Yp1mL3d3dGJTJGJTJBNTJ" target="_blank">微软商城</a></li>
-
-<div id="site-categories" class="side-item">
-<div class="side-header">
-<h2>Xiami Music </h2>
-</div>
-<div class="side-content">                
-<embed src="http://www.xiami.com/widget/582296_582296_258_460_d90000_333333_0/shufflePlayer.swf" type="application/x-shockwave-flash" width="258" height="460" wmode="opaque"></embed>
-
-<div id="site-categories" class="side-item">
-<div class="side-header">
-<h2>Twitter </h2>
-</div>
-<div class="side-content">    
-<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/lioz" data-widget-id="707070409124892673">Tweets by @lioz</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-</ul>
         </div><!-- sidebar -->
       </div><!-- hide for small -->
 </div><!-- large 4 -->
@@ -399,7 +356,6 @@ Theme used <a target="_blank" href="http://github.com">GitHub CSS</a>.</p>
       });
      
     </script>
-
 
     
 

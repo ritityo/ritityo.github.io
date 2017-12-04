@@ -18,7 +18,13 @@
   <script src="asset/highlightjs/highlight.pack.js"></script>
   <link href="asset/highlightjs/styles/github.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script>hljs.initHighlightingOnLoad();</script>
-
+<script type="text/javascript">
+  function before_search(){
+    var searchVal = 'site:kianli.com ' + document.getElementById('search_input').value;
+    document.getElementById('search_q').value = searchVal;
+    return true;
+  }
+</script>
   </head>
   <body class="antialiased hide-extras">
     
@@ -33,16 +39,18 @@
   <div class="row">
       <div style="position: relative;width:100%;"><div style="position: absolute; width:100%;">
         <ul id="main-menu" class="left">
-        <li id="menu_item_index"><a href="index.html">HOME</a></li>
-        <li id="menu_item_archives"><a href="archives.html">Archives</a></li>
-        <li id="menu_item_about"><a href="about.html">ABOUT</a></li>
+        
+        <li id=""><a target="self" href="index.html">Home</a></li>
+        
+        <li id=""><a target="_self" href="archives.html">Archives</a></li>
+        
         </ul>
 
         <ul class="right" id="search-wrap">
           <li>
-<form target="_blank" action="http://google.com/search" method="get">
-    <input type="hidden" name="q" value="site:kianli.com" />
-    <input tabindex="1" type="search" name="q"  placeholder="Search"/>
+<form target="_blank" onsubmit="return before_search();" action="http://google.com/search" method="get">
+    <input type="hidden" id="search_q" name="q" value="" />
+    <input tabindex="1" type="search" id="search_input"  placeholder="Search"/>
 </form>
 </li>
           </ul>
@@ -82,6 +90,9 @@
 
 
         <section id="main-content" role="main" class="scroll-container">
+        
+       
+
  <script type="text/javascript">
 	$(function(){
 		$('#menu_item_index').addClass('is_active');
@@ -92,41 +103,53 @@
 		<div class="markdown-body home-categories">
 		
 			<div class="article">
-                <a class="clearlink" href="14682459583232.html">
+                <a class="clearlink" href="14763504898652.html">
                 
-                  <h1>PokemonGo Niantic和墙</h1>
+                  <h1>xdf某总</h1>
                   <div class="a-content">
                       
                       <div class="a-content-text">
                         
-                        	<p><img src="http://ww4.sinaimg.cn/large/72f96cbagw1f5qbjzi38mj21af0qe41u.jpg" alt="maxresdefault.jpg"/></p>
+                        	<p>今天非常有幸通过非常互联网形态的形式听到了徐总做的关于互联网和商业行为的分享，虽然做为一名普通的一线教师也无法从徐总这样的层次和视角来看这样一个宏观的问题，更不用说自己是根本不具备徐总的知识储备、经历以及涵养的。</p>
 
-<h3 id="toc_0">友情提示</h3>
+<p>我的听课心得可以从如下方面来记录：</p>
+
+<h3 id="toc_0">呈现形式：</h3>
+
+<p>徐总的讲座的呈现形式从宏观到微观，把如此专业的知识传递到我这样和互联网这个时代潮流里的路人甲般的一线教师是如此地顺滑，这就是我做为一线教师必须要去好好学习、借鉴的。</p>
+
+<p>互动：<br/>
+徐总在阐述大数据这个概念的时候，通过带着大家查看苹果手机里位置信息来理解大数据的具体概念的时候，这样的方式和互动在上海学校的分会场里瞬间让大多数同事发现了自己手机里存在着自己却又不知道的东西。现场很多老师就像走进了糖果店里的孩子那般兴奋。瞬间，整个会场活泼了起来。虽然无法其他兄弟学校会场，但是我相信这样的场景在其他兄弟学校的会场里也是一样的。这样精巧的微操作也是我这样的一线教师必须学习的。</p>
+
+<h3 id="toc_1">一些思考：</h3>
+
+<p>虽然是一名普通的一线教师，我还是对互联网这个话题保有高度的兴趣，以下是自己的一些思考。因为学识等诸多方面的限制，理解和思考肯定有不周全之处，敬请谅解</p>
+
+<p><mark>关于用户行为的思考</mark></p>
+
+<p><code>根据2015年的热搜榜对比，中国用户更加倾向于服务，因此得出的搜索热词都是类似百度、微信这样的关键词；美国用户在Google上搜索的关键词都是以知识信息为主</code></p>
+
+<p>这一点上面，可能因为媒体报道的影响，我对这个问题的理解是中国互联网用户的行为很多程度上是受到特殊国情所限制的。</p>
+
+<h6 id="toc_2">1: 优秀的服务无法访问的困扰</h6>
+
+<p>好像有个不成文的规定，一些比较优秀的网站通常是会很快受到“金盾计划”的认证的。因为一线教学可以接触到很多学员，其中很大一部分对这个现状都是想尽办法八仙过海。</p>
+
+<h6 id="toc_3">2: 国内一些替代品的商业道德低下</h6>
+
+<p>像百度的关键字的问题被不断地爆出，自然人们在搜索的时候肯定不会去相信百度搜索引擎对网页的搜索结果。百度也已经过了当年“百度：更懂中文”的时代了</p>
+
+<p>已经有越来越多的人访问百度是为了检查自己家里的网络是否是通的了 :-)</p>
+
+<p><mark>关于中美两国间促销的分享</mark><br/>
+非常同意徐总在讲座中提到的观点，除了这些观点之外，我觉得这个点可能是接下来的时间里我认为保有并珍视商业道德的中国互联网公司会去影响世界的。比如最开始抄袭香港开发者开发的talkbox的微信，在之后的发展中，虽然在很多语境里被定义为微创新，但是我认为如果腾讯可以在和用户之间用隐私信息去换得便利性的过程中保有一个公司应有的商业道德的前提下是会去影响到世界的。<br/>
+这个从台湾、韩国媒体制作的纪录片中可见一斑</p>
+
+<p>P.S 徐总提到布鲁塞尔公交系统里提示公交车到站信息实时显示的案例，其实我国杭州市的公交系统在2009年就实现了。除此之外，当时也有android开发者利用该系统提供的api开发了一款android app, 在android 1.5上就可以流畅运行。现在这个系统也更为完善，除去公交车信息之外也能提到公共自行车的查询。</p>
 
 <blockquote>
-<p><mark>1</mark> 本文含有利益相关的成分 相关内容形同<a href="https://bandwagonhost.com/aff.php?aff=5317&pid=12/"target="_blank"><a href="https://bandwagonhost.com/aff.php?aff=5317&amp;pid=12">https://bandwagonhost.com/aff.php?aff=5317&amp;pid=12</a></a>  的含小尾巴超链接<br/>
-<mark>2</mark> 本文相对长一些，建议播放Bow Wow的Big Dream，边听边读:-)<br/>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="http://music.163.com/outchain/player?type=2&id=16628482&auto=0&height=66"></iframe></p>
+<p>杭州市公交出行实时信息服务系统 <a href="http://www.hzbus.cn/">http://www.hzbus.cn/</a>  </p>
 </blockquote>
-
-<h1 id="toc_1"></h1>
-
-<h3 id="toc_2">关于火爆的PokemonGo</h3>
-
-<blockquote>
-<blockquote>
-<p><img src="http://ww3.sinaimg.cn/large/72f96cbagw1f5qdbegr8bj21kw0xqkgi.jpg" alt="pokemon-go-nick_statt-screenshots-1.0.jpg"/></p>
-</blockquote>
-</blockquote>
-
-<p>最近这两天里PokemonGo，这款由Niantic Labs和任天堂联手推出基于虚拟现实(Virtual Reality)和定位社交服务(Location-based Service)的手机游戏已经引爆了火墙内外</p>
-
-<blockquote>
-<blockquote>
-<p><img src="http://ww3.sinaimg.cn/large/72f96cbagw1f5qc7ojfo1j20ge0tcjta.jpg" alt="CnFAFTUXgAENnFC.jpg"/></p>
-</blockquote>
-</blockquote>
-
 
                         
                       </div>
@@ -134,8 +157,8 @@
                 </a>
                 <div class="read-more clearfix">
                   <div class="more-left left">
-                   <a href="14682459583232.html">Read more</a>&nbsp;&nbsp; 
-                    <span class="date">2016/7/11</span>
+                  
+                    <span class="date">2016/10/13</span>
                     <span>posted in&nbsp;</span> 
           				  
           					    <span class="posted-in"><a href='%E8%AE%B0%E5%BD%95.html'>记录</a></span>
@@ -152,49 +175,14 @@
               </div><!-- article -->
         
 			<div class="article">
-                <a class="clearlink" href="14677181823466.html">
+                <a class="clearlink" href="14729203084693.html">
                 
-                  <h1>时光一去不复回</h1>
+                  <h1>斐讯K2刷机记</h1>
                   <div class="a-content">
                       
                       <div class="a-content-text">
                         
-                        	<p><img src="http://ww3.sinaimg.cn/large/72f96cbagw1f5j97zjwy0j20t10hxgq4.jpg" alt="Snip20160626_54.png"/></p>
-
-<blockquote>
-<p>时光一逝永不回<br/>
-往事只能回味<br/>
-忆童年时竹马青梅<br/>
-两小无猜日夜相随<br/>
-时光一逝永不回<br/>
-往事只能回味<br/>
-忆童年时竹马青梅<br/>
-两小无猜日夜相随<br/>
-春风又吹红了花蕊<br/>
-你已经也添了新岁<br/>
-你就要变心像时光难倒回<br/>
-我只有在梦里相依偎<br/>
-春风又吹红了花蕊<br/>
-你已经也添了新岁<br/>
-你就要变心像时光难倒回<br/>
-我只有在梦里相依偎<br/>
-时光一逝永不回<br/>
-往事只能回味<br/>
-忆童年时竹马青梅<br/>
-两小无猜日夜相随<br/>
-时光一逝永不回<br/>
-往事只能回味<br/>
-忆童年时竹马青梅<br/>
-两小无猜日夜相随<br/>
-你就要变心像时光难倒回<br/>
-我只有在梦里相依偎</p>
-</blockquote>
-
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="http://music.163.com/outchain/player?type=2&id=29414460&auto=0&height=66"></iframe>
-
-<p>这歌里除去男女的情爱其实也可以品出一些其他的东西<br/>
-比如物是人非</p>
-
+                        	
                         
                       </div>
                   </div>
@@ -202,7 +190,7 @@
                 <div class="read-more clearfix">
                   <div class="more-left left">
                   
-                    <span class="date">2016/7/5</span>
+                    <span class="date">2016/9/4</span>
                     <span>posted in&nbsp;</span> 
           				  
           					    <span class="posted-in"><a href='%E8%AE%B0%E5%BD%95.html'>记录</a></span>
@@ -251,16 +239,19 @@
 
 
 
-<a class="quora" href="https://www.quora.com/profile/Kian-Li" title="Quora">Quora</a>
-<a class="instagram" href="https://instagram.com/ritityo/" title="Instagram">Instagram</a>
-<a class="weibo" target="_blank" href="http://weibo.com/lioz" title="weibo">Weibo</a>
-<a class="twitter" target="_blank" href="https://twitter.com/lioz" title="Twitter">Twitter</a>
+<a target="_blank" class="quora" href="https://www.quora.com/profile/Kian-Li" title="Quora">Quora</a>
+<a target="_blank" class="instagram" href="https://instagram.com/ritityo/" title="Instagram">Instagram</a>
+<a target="_blank" class="weibo" href="http://weibo.com/lioz" title="weibo">Weibo</a>
+<a target="_blank" class="twitter" target="_blank" href="https://twitter.com/lioz" title="Twitter">Twitter</a>
 
 
-  <a class="rss" href="atom.xml" title="RSS">RSS</a>
+  <a target="_blank" class="rss" href="atom.xml" title="RSS">RSS</a>
                 
               	 </div>
           	</div>
+
+             
+
               <div id="site-categories" class="side-item ">
                 <div class="side-header">
                   <h2>Categories</h2>
@@ -290,6 +281,24 @@
 	      
 		      
 			      <li class="post">
+			        <a href="15090886809993.html">**又到了一年一度的双十一了!**</a>
+			      </li>
+		     
+		  
+		      
+			      <li class="post">
+			        <a href="14763504898652.html">xdf某总</a>
+			      </li>
+		     
+		  
+		      
+			      <li class="post">
+			        <a href="14729203084693.html">斐讯K2刷机记</a>
+			      </li>
+		     
+		  
+		      
+			      <li class="post">
 			        <a href="14686858609415.html">推剧：The Night Of (Updating)</a>
 			      </li>
 		     
@@ -297,24 +306,6 @@
 		      
 			      <li class="post">
 			        <a href="14682459583232.html">PokemonGo Niantic和墙</a>
-			      </li>
-		     
-		  
-		      
-			      <li class="post">
-			        <a href="14677181823466.html">时光一去不复回</a>
-			      </li>
-		     
-		  
-		      
-			      <li class="post">
-			        <a href="14669147667001.html">荐书 Speed Reading - The Comprehensive Guide To Speed Reading - Increase Your Reading Speed By 300% In Less Than 24 Hours</a>
-			      </li>
-		     
-		  
-		      
-			      <li class="post">
-			        <a href="14659153935241.html">荐书：TED Talks: The Official TED Guide to Public Speaking</a>
 			      </li>
 		     
 		  
@@ -351,41 +342,6 @@
 		  		</ul>
                 </div>
               </div>
-
-               <div id="site-categories" class="side-item">
-                <div class="side-header">
-                  <h2>Blog Rolls </h2>
-                </div>
-                <div class="side-content">
-
-
-
-<li><a href="http://yeyaxi.com/" target="_blank">ss1271’s Site</a></li>
-<li><a href="http://bao3.org/" target="_blank">活着真好</a></li>
-<li><a href="http://xiaozhou.net/" target="_blank">iTimothy</a></li>
-<li><a href="http://www.aiboom.com/" target="_blank">AiBoom</a></li>
-<li><a href="http://nathanli.com/" target="_blank">Nathan Li</a></li>
-<li><a href="http://www.vultr.com/?ref=6854006/" target="_blank">Vultr</a></li>
-<li><a href="http://qiaoxiaoguang.xyz/" target="_blank">晓光｜iMax</a></li>
-<li><a href="https://bandwagonhost.com/aff.php?aff=5317" target="_blank">瓦工BandWagon</a></li>
-<li><a href="http://c.duomai.com/track.php?k=wRHdo1Ddm0DZpVXZmkDN2ITPklWYmcTM3QDMy0DZp9VZ0l2cmYibj5SbvNmLlJ3b0NHdm92cvJ3Yp1mL3d3dGJTJGJTJBNTJ" target="_blank">微软商城</a></li>
-
-<div id="site-categories" class="side-item">
-<div class="side-header">
-<h2>Xiami Music </h2>
-</div>
-<div class="side-content">                
-<embed src="http://www.xiami.com/widget/582296_582296_258_460_d90000_333333_0/shufflePlayer.swf" type="application/x-shockwave-flash" width="258" height="460" wmode="opaque"></embed>
-
-<div id="site-categories" class="side-item">
-<div class="side-header">
-<h2>Twitter </h2>
-</div>
-<div class="side-content">    
-<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/lioz" data-widget-id="707070409124892673">Tweets by @lioz</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-</ul>
         </div><!-- sidebar -->
       </div><!-- hide for small -->
 </div><!-- large 4 -->
@@ -423,7 +379,6 @@ Theme used <a target="_blank" href="http://github.com">GitHub CSS</a>.</p>
       });
      
     </script>
-
 
     
 
