@@ -4,7 +4,7 @@
   <title><![CDATA[Kian的自留地]]></title>
   <link href="http://kianli.com/atom.xml" rel="self"/>
   <link href="http://kianli.com/"/>
-  <updated>2017-12-05T00:58:26+08:00</updated>
+  <updated>2017-12-05T01:41:05+08:00</updated>
   <id>http://kianli.com/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -13,7 +13,7 @@
   <generator uri="http://www.mweb.im/">MWeb</generator>
   
   <entry>
-    <title type="html"><![CDATA[**又到了一年一度的双十一了!**]]></title>
+    <title type="html"><![CDATA[*又到了一年一度的双十一了!*]]></title>
     <link href="http://kianli.com/15090886809993.html"/>
     <updated>2017-10-27T15:18:00+08:00</updated>
     <id>http://kianli.com/15090886809993.html</id>
@@ -58,6 +58,8 @@
 </ul>
 
 <hr/>
+
+<span id="more"></span><!-- more -->
 
 <h2 id="toc_1">数码配件</h2>
 
@@ -141,56 +143,6 @@
 
 <blockquote>
 <p><strong><em>￥nVxv0TpqOIr￥</em></strong></p>
-</blockquote>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[xdf某总]]></title>
-    <link href="http://kianli.com/14763504898652.html"/>
-    <updated>2016-10-13T17:21:29+08:00</updated>
-    <id>http://kianli.com/14763504898652.html</id>
-    <content type="html"><![CDATA[
-<p>今天非常有幸通过非常互联网形态的形式听到了徐总做的关于互联网和商业行为的分享，虽然做为一名普通的一线教师也无法从徐总这样的层次和视角来看这样一个宏观的问题，更不用说自己是根本不具备徐总的知识储备、经历以及涵养的。</p>
-
-<p>我的听课心得可以从如下方面来记录：</p>
-
-<h3 id="toc_0">呈现形式：</h3>
-
-<p>徐总的讲座的呈现形式从宏观到微观，把如此专业的知识传递到我这样和互联网这个时代潮流里的路人甲般的一线教师是如此地顺滑，这就是我做为一线教师必须要去好好学习、借鉴的。</p>
-
-<p>互动：<br/>
-徐总在阐述大数据这个概念的时候，通过带着大家查看苹果手机里位置信息来理解大数据的具体概念的时候，这样的方式和互动在上海学校的分会场里瞬间让大多数同事发现了自己手机里存在着自己却又不知道的东西。现场很多老师就像走进了糖果店里的孩子那般兴奋。瞬间，整个会场活泼了起来。虽然无法其他兄弟学校会场，但是我相信这样的场景在其他兄弟学校的会场里也是一样的。这样精巧的微操作也是我这样的一线教师必须学习的。</p>
-
-<h3 id="toc_1">一些思考：</h3>
-
-<p>虽然是一名普通的一线教师，我还是对互联网这个话题保有高度的兴趣，以下是自己的一些思考。因为学识等诸多方面的限制，理解和思考肯定有不周全之处，敬请谅解</p>
-
-<p><mark>关于用户行为的思考</mark></p>
-
-<p><code>根据2015年的热搜榜对比，中国用户更加倾向于服务，因此得出的搜索热词都是类似百度、微信这样的关键词；美国用户在Google上搜索的关键词都是以知识信息为主</code></p>
-
-<p>这一点上面，可能因为媒体报道的影响，我对这个问题的理解是中国互联网用户的行为很多程度上是受到特殊国情所限制的。</p>
-
-<h6 id="toc_2">1: 优秀的服务无法访问的困扰</h6>
-
-<p>好像有个不成文的规定，一些比较优秀的网站通常是会很快受到“金盾计划”的认证的。因为一线教学可以接触到很多学员，其中很大一部分对这个现状都是想尽办法八仙过海。</p>
-
-<h6 id="toc_3">2: 国内一些替代品的商业道德低下</h6>
-
-<p>像百度的关键字的问题被不断地爆出，自然人们在搜索的时候肯定不会去相信百度搜索引擎对网页的搜索结果。百度也已经过了当年“百度：更懂中文”的时代了</p>
-
-<p>已经有越来越多的人访问百度是为了检查自己家里的网络是否是通的了 :-)</p>
-
-<p><mark>关于中美两国间促销的分享</mark><br/>
-非常同意徐总在讲座中提到的观点，除了这些观点之外，我觉得这个点可能是接下来的时间里我认为保有并珍视商业道德的中国互联网公司会去影响世界的。比如最开始抄袭香港开发者开发的talkbox的微信，在之后的发展中，虽然在很多语境里被定义为微创新，但是我认为如果腾讯可以在和用户之间用隐私信息去换得便利性的过程中保有一个公司应有的商业道德的前提下是会去影响到世界的。<br/>
-这个从台湾、韩国媒体制作的纪录片中可见一斑</p>
-
-<p>P.S 徐总提到布鲁塞尔公交系统里提示公交车到站信息实时显示的案例，其实我国杭州市的公交系统在2009年就实现了。除此之外，当时也有android开发者利用该系统提供的api开发了一款android app, 在android 1.5上就可以流畅运行。现在这个系统也更为完善，除去公交车信息之外也能提到公共自行车的查询。</p>
-
-<blockquote>
-<p>杭州市公交出行实时信息服务系统 <a href="http://www.hzbus.cn/">http://www.hzbus.cn/</a>  </p>
 </blockquote>
 
 ]]></content>
@@ -1616,6 +1568,51 @@ ASIN: 9866616967<br/>
 <h3 id="toc_3">服务器如何获得</h3>
 
 <p>搭建服务器不是难事，请参考：<a href="http://kianli.com/14517065679125.html">可能是最傻瓜的VPS-Bandwagonhost</a> 一文</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Polymail 试用]]></title>
+    <link href="http://kianli.com/14567339636229.html"/>
+    <updated>2016-02-29T16:19:23+08:00</updated>
+    <id>http://kianli.com/14567339636229.html</id>
+    <content type="html"><![CDATA[
+<p><img src="http://ww4.sinaimg.cn/large/621370d5gw1f1gaw8l4lgj20u907r41d.jpg" alt="banner"/></p>
+
+<p>下午在刷推的时候看到了<a href="https://twitter.com/imdecoder">@imdecode</a> 发推问有谁需要Polymail的邀请码 第一时间果断抢下沙发<br/>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="zh" dir="ltr">2 个 Polymail OSX 的邀请。。。谁要？</p>&mdash; Jay M (@imdecoder) <a href="https://twitter.com/imdecoder/status/704178945466306560">February 29, 2016</a></blockquote><br/>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+
+<p>在DM了邮箱之后瞬间受到了Polymail的邀请码 :-)</p>
+
+<p><img src="http://7xqmgz.com1.z0.glb.clouddn.com/2016-02-29-PolyMailInvitation.png" alt="PolyMailInvitation"/></p>
+
+<p>在下载程序的zip包的时候发现<a href="http://ploymail.io">ploymail.io</a> 在不使用代理的情况下是无法访问的</p>
+
+<p><img src="http://7xqmgz.com1.z0.glb.clouddn.com/2016-02-29-polymail1.png" alt="polymai"/></p>
+
+<p>压缩包不大，大约9MB的样子，看来这款程序的体积应该比较喜人</p>
+
+<span id="more"></span><!-- more -->
+
+<p><img src="http://7xqmgz.com1.z0.glb.clouddn.com/2016-02-29-ploymail2.png" alt="ploymai"/><br/>
+<mark>⇧</mark> 目前Polymail还是属于需要邀请码才能注册</p>
+
+<p><img src="http://7xqmgz.com1.z0.glb.clouddn.com/2016-02-29-Snip20160229_8.png" alt="Snip20160229_8"/><br/>
+<mark>⇧</mark> 此处需要先行注册一个Polymail的帐号</p>
+
+<p><img src="http://7xqmgz.com1.z0.glb.clouddn.com/2016-02-29-Snip20160229_9.png" alt="Snip20160229_9"/><br/>
+<mark>⇧</mark> 目前Ploymail支持gmail和iCloud邮箱的收发</p>
+
+<p><img src="http://7xqmgz.com1.z0.glb.clouddn.com/2016-02-29-Snip20160229_10.png" alt="Snip20160229_10"/><br/>
+<mark>⇧</mark> 既然已经开了全局模式此处就使用gmail来体验</p>
+
+<p><img src="http://7xqmgz.com1.z0.glb.clouddn.com/2016-02-29-Snip20160229_11.png" alt="Snip20160229_11"/><br/>
+<mark>⇧</mark> Polymail需要的权限</p>
+
+<p><img src="http://7xqmgz.com1.z0.glb.clouddn.com/2016-02-29-Snip2016022.jpg" alt="Snip2016022"/><br/>
+<mark>⇧</mark> 界面个人比较喜欢</p>
 
 ]]></content>
   </entry>
