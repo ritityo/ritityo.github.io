@@ -4,13 +4,67 @@
   <title><![CDATA[Kian的自留地]]></title>
   <link href="http://kianli.com/atom.xml" rel="self"/>
   <link href="http://kianli.com/"/>
-  <updated>2018-01-20T22:54:24+08:00</updated>
+  <updated>2018-03-23T11:59:15+08:00</updated>
   <id>http://kianli.com/</id>
   <author>
     <name><![CDATA[]]></name>
     
   </author>
   <generator uri="http://www.mweb.im/">MWeb</generator>
+  
+  <entry>
+    <title type="html"><![CDATA[Infinity Cube指尖无限魔方]]></title>
+    <link href="http://kianli.com/infinitycube.html"/>
+    <updated>2018-03-23T01:52:46+08:00</updated>
+    <id>http://kianli.com/infinitycube.html</id>
+    <content type="html"><![CDATA[
+<p>Infinity Cube指尖魔方 有点类似去年全球大火的fidget spinner指尖陀螺 但是目前来看指尖魔方的火爆程度上来说没有指尖陀螺那么厉害</p>
+
+<p>不知道小米是不是看到了指尖魔方kickstarter上相关产品众筹非常成功 于是就做了这款米兔指尖积木，售价还是延续小米的风格 不贵，只要9.9元 <br/>
+小米商城里看到有货，年前想买来着，但是发现运费比商品还要贵 :-( 只能作罢<br/>
+前几天在淘宝上看到有9.9元包邮的 于是下单<br/>
+除非包邮或者你附近的小米之家里有出售的话 不建议单独下单</p>
+
+<h4 id="toc_0">开箱和拼装</h4>
+
+<p><img src="http://ww1.sinaimg.cn/mw690/621370d5gy1fpm4np760bj22c0340kjl.jpg" alt="包装"/></p>
+
+<p><img src="http://ww1.sinaimg.cn/mw690/621370d5gy1fpm4opceo6j22pi214e81.jpg" alt=""/></p>
+
+<span id="more"></span><!-- more -->
+
+<p><img src="http://ww1.sinaimg.cn/mw690/621370d5gy1fpm4pcjz5yj20go0m8wn7.jpg" alt=""/></p>
+
+<p><img src="http://ww1.sinaimg.cn/mw690/621370d5gy1fpm4prod5mj22c0340hdt.jpg" alt=""/></p>
+
+<p><img src="http://ww1.sinaimg.cn/mw690/621370d5gy1fpm4rb4mf1j22ok20fb29.jpg" alt=""/></p>
+
+<p><img src="http://ww1.sinaimg.cn/mw690/621370d5gy1fpm4rpmy82j22x426u1ky.jpg" alt=""/></p>
+
+<p>至此拼装完毕，玩起来的确很能打发时间，虽然用料是塑料 但是质量还是不错的<br/>
+本来想弄个动图的 但是无奈我的这个指尖积木被儿子拿去玩 之后就不知道落在哪里了... <br/>
+什么值得买里也有网友分享的动图<br/>
+<img src="https://qnam.smzdm.com/201711/26/5a1a7d468b8556561.gif_e600.jpg" alt=""/></p>
+
+<h4 id="toc_1">3D打印一个?</h4>
+
+<p>如果你有3D打印机的话 或许这也是一个可以考虑的选项<br/>
+你可以在 <a href="https://www.thingiverse.com/thing:2595224">https://www.thingiverse.com/thing:2595224</a> 下载到stl文件 <br/>
+注意如下内容</p>
+
+<p><mark>Resolution</mark>: 0.2 mm</p>
+
+<p><mark>Infill</mark>: 20%</p>
+
+<p><mark>Notes</mark>:<br/>
+This thing is optimized for 0.2 mm layer height. Please try that first before any other resolutions. It&#39;s also optimized specifically for a 0.4 mm nozzle width, so no guarantees it will work well if you&#39;re using another size.</p>
+
+<p>20% infill gives it a tiny bit of heft so it feels better to spin around, but you could probably go up or down from this number depending on your preferences.</p>
+
+<p>Some other tips for best print results: use a skirt that&#39;s close to the model and goes up 5-10 layers, keep part cooling fan off for first layer then on for the rest, turn the model diagonally in your slicer so that X and Y axes move together for most of the moves, use 3-5 vertical shells/perimeters to avoid curling, and print at the coolest temperature you reasonably can for your material to avoid stringing or lamination where it&#39;s unwanted.</p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[有趣的Telegram机器人们]]></title>
@@ -1628,83 +1682,6 @@ ASIN: 9866616967<br/>
 
 <p>网盘链接：<br/>
 <a href="http://pan.baidu.com/s/1bonCWPp" target="_blank">百度网盘</a>  密码：8t9e ｜ <a href="http://vdisk.weibo.com/lc/3I05rPS5Wl6XcbYCHLr" target="_blank">新浪微盘</a> 密码: C5Y9</p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Henri Zuber: 一位记录过19世纪下半叶上海的法国海军随军画师]]></title>
-    <link href="http://kianli.com/14577026102795.html"/>
-    <updated>2016-03-11T21:23:30+08:00</updated>
-    <id>http://kianli.com/14577026102795.html</id>
-    <content type="html"><![CDATA[
-<h3 id="toc_0">Si-Ka-We Tower near Shanghai 1867</h3>
-
-<p><img src="http://ww1.sinaimg.cn/large/621370d5gw1f1t8uxazooj20jk0sgadg.jpg" alt=""/><br/>
-<blockquote class="twitter-tweet" data-cards="hidden" data-lang="en"><p lang="en" dir="ltr">Si-Ka-We tower near Shanghai - H. Zuber - China 1867 - Watercolour - Priv. coll. <a href="https://t.co/biTLFANDOa">pic.twitter.com/biTLFANDOa</a></p>&mdash; Le peintre Zuber (@henri_zuber) <a href="https://twitter.com/henri_zuber/status/707632046974377984">March 9, 2016</a></blockquote><br/>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
-
-<h3 id="toc_1">Shanghai&#39;s Walls - H. Zuber - China in 1867</h3>
-
-<p><img src="http://ww1.sinaimg.cn/large/621370d5gw1f1tal3iblgj20fr0cb0tp.jpg" alt=""/></p>
-
-<blockquote class="twitter-tweet" data-cards="hidden" data-lang="en"><p lang="en" dir="ltr">Shanghai&#39;s Walls - H. Zuber - China in 1867 - Watercolor 22x28 - Coll. part. <a href="https://t.co/bbTIAY9jh3">pic.twitter.com/bbTIAY9jh3</a></p>&mdash; Le peintre Zuber (@henri_zuber) <a href="https://twitter.com/henri_zuber/status/660205429490888704">October 30, 2015</a></blockquote>
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<span id="more"></span><!-- more -->
-
-<h3 id="toc_2">Garden in Shanghai 1866</h3>
-
-<p><img src="http://ww2.sinaimg.cn/large/621370d5gw1f1t8tps7lsj20go0lswgm.jpg" alt=""/><br/>
-<blockquote class="twitter-tweet" data-cards="hidden" data-lang="en"><p lang="de" dir="ltr">Garden in Shanghai - H. Zuber - China in 1866 - Watercolor - Priv. coll. <a href="https://t.co/eDiawqK5Ee">pic.twitter.com/eDiawqK5Ee</a></p>&mdash; Le peintre Zuber (@henri_zuber) <a href="https://twitter.com/henri_zuber/status/706092030842245121">March 5, 2016</a></blockquote><br/>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
-
-<h3 id="toc_3">Etude pour &quot;La jonque chinoise&quot;</h3>
-
-<p><img src="http://ww4.sinaimg.cn/large/621370d5gw1f1t97h4alwj20go0bpdgs.jpg" alt=""/><br/>
-<blockquote class="twitter-tweet" data-cards="hidden" data-lang="en"><p lang="fr" dir="ltr">Etude pour &quot;La jonque chinoise&quot; - H. Zuber - Aquarelle - Coll. part. <a href="https://t.co/f5dCd3lcWT">pic.twitter.com/f5dCd3lcWT</a></p>&mdash; Le peintre Zuber (@henri_zuber) <a href="https://twitter.com/henri_zuber/status/704042146693775360">February 28, 2016</a></blockquote><br/>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
-
-<h3 id="toc_4">Chinese Theater in Tongkadou 1867</h3>
-
-<p><img src="http://ww3.sinaimg.cn/large/621370d5gw1f1t9dt1k23j20go0ewmyw.jpg" alt=""/></p>
-
-<blockquote class="twitter-tweet" data-cards="hidden" data-lang="en"><p lang="en" dir="ltr">Chinese Theater in Tongkadou - H. Zuber - Shanghai in 1867 - Watercolor 20x23 - Coll. part. <a href="https://t.co/L8R3LIk0CA">pic.twitter.com/L8R3LIk0CA</a></p>&mdash; Le peintre Zuber (@henri_zuber) <a href="https://twitter.com/henri_zuber/status/671785845037375493">December 1, 2015</a></blockquote>
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<h3 id="toc_5">Tea stop in Shanghai - H. Zuber - China 1866</h3>
-
-<p><img src="http://ww3.sinaimg.cn/large/621370d5gw1f1t9s4i6txj20go0b90v1.jpg" alt=""/></p>
-
-<blockquote class="twitter-tweet" data-cards="hidden" data-lang="en"><p lang="en" dir="ltr">Tea stop in Shanghai - H. Zuber - China 1866 - Watercolour 17x24 - Priv. coll. <a href="https://t.co/z4SuBc0zXY">pic.twitter.com/z4SuBc0zXY</a></p>&mdash; Le peintre Zuber (@henri_zuber) <a href="https://twitter.com/henri_zuber/status/698539225860411393">February 13, 2016</a></blockquote>
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<h3 id="toc_6">Mandarin militaire et son escorte 1867</h3>
-
-<p><img src="http://ww1.sinaimg.cn/large/621370d5gw1f1tado3s3aj20go0enac4.jpg" alt=""/></p>
-
-<blockquote class="twitter-tweet" data-cards="hidden" data-lang="en"><p lang="fr" dir="ltr">Mandarin militaire et son escorte - H. Zuber - Chine 1867 - Aquarelle - Coll. part. <a href="https://t.co/CxHmmFmmo3">pic.twitter.com/CxHmmFmmo3</a></p>&mdash; Le peintre Zuber (@henri_zuber) <a href="https://twitter.com/henri_zuber/status/670537562101039104">November 28, 2015</a></blockquote>
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<h3 id="toc_7">Coffin merchants - H. Zuber - China in 1867</h3>
-
-<p><img src="http://ww1.sinaimg.cn/large/621370d5gw1f1tage5h10j20go0cnq52.jpg" alt=""/></p>
-
-<blockquote class="twitter-tweet" data-cards="hidden" data-lang="en"><p lang="en" dir="ltr">Coffin merchants - H. Zuber - China in 1867 - Watercolour 21x28 - Coll. part. <a href="https://t.co/Kr5Hx6EW04">pic.twitter.com/Kr5Hx6EW04</a></p>&mdash; Le peintre Zuber (@henri_zuber) <a href="https://twitter.com/henri_zuber/status/669765523991887872">November 26, 2015</a></blockquote>
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<h3 id="toc_8">Jonque chinoise dans la baie de Ting Haë 1882 - Huile - Musée de Shanghai</h3>
-
-<p><img src="http://ww1.sinaimg.cn/large/621370d5gw1f1t9ptw6s5j20gm0bdmxm.jpg" alt=""/></p>
-
-<blockquote class="twitter-tweet" data-cards="hidden" data-lang="en"><p lang="fr" dir="ltr">Jonque chinoise dans la baie de Ting Haë - H. Zuber - Chine 1882 - Huile - Musée de Shanghai <a href="https://t.co/dDO7cybpQ5">pic.twitter.com/dDO7cybpQ5</a></p>&mdash; Le peintre Zuber (@henri_zuber) <a href="https://twitter.com/henri_zuber/status/699183481037811712">February 15, 2016</a></blockquote>
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ]]></content>
   </entry>
