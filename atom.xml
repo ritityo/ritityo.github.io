@@ -4,7 +4,7 @@
   <title><![CDATA[Kian的自留地]]></title>
   <link href="http://kianli.com/atom.xml" rel="self"/>
   <link href="http://kianli.com/"/>
-  <updated>2018-03-23T23:09:10+08:00</updated>
+  <updated>2018-04-05T11:10:12+08:00</updated>
   <id>http://kianli.com/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -87,9 +87,9 @@
   
   <entry>
     <title type="html"><![CDATA[有趣的Telegram机器人们]]></title>
-    <link href="http://kianli.com/15163471329641.html"/>
+    <link href="http://kianli.com/telegrambot.html"/>
     <updated>2018-01-19T15:32:12+08:00</updated>
-    <id>http://kianli.com/15163471329641.html</id>
+    <id>http://kianli.com/telegrambot.html</id>
     <content type="html"><![CDATA[
 <p><img src="http://ww1.sinaimg.cn/large/621370d5gy1fnlydgpbclj20e80e8tdv.jpg" alt=""/><br/>
 Telegram是国外常用的聊天功能，和国内我们常用的QQ、微信功能相似。<mark>当然Telegram不能抢红包 在大陆访问和使用Telegram是一门技术活</mark><br/>
@@ -221,9 +221,9 @@ GitHub 地址：<a href="https://github.com/blueset/ehForwarderBot">https://gith
   
   <entry>
     <title type="html"><![CDATA[来自枫叶国的一部好动画--Paw Patrol]]></title>
-    <link href="http://kianli.com/15143017754874.html"/>
+    <link href="http://kianli.com/pawpatrol.html"/>
     <updated>2017-12-26T23:22:55+08:00</updated>
-    <id>http://kianli.com/15143017754874.html</id>
+    <id>http://kianli.com/pawpatrol.html</id>
     <content type="html"><![CDATA[
 <p><img src="http://ww1.sinaimg.cn/large/621370d5gy1fmulh4a9gyj20sg0c8arg.jpg" alt=""/></p>
 
@@ -574,9 +574,9 @@ GitHub 地址：<a href="https://github.com/blueset/ehForwarderBot">https://gith
   
   <entry>
     <title type="html"><![CDATA[PokemonGo Niantic和墙]]></title>
-    <link href="http://kianli.com/14682459583232.html"/>
+    <link href="http://kianli.com/pokemongo&niantic.html"/>
     <updated>2016-07-11T22:05:58+08:00</updated>
-    <id>http://kianli.com/14682459583232.html</id>
+    <id>http://kianli.com/pokemongo&niantic.html</id>
     <content type="html"><![CDATA[
 <p><img src="http://ww4.sinaimg.cn/large/72f96cbagw1f5qbjzi38mj21af0qe41u.jpg" alt="maxresdefault.jpg"/></p>
 
