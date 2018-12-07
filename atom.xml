@@ -4,13 +4,57 @@
   <title><![CDATA[Kian的自留地]]></title>
   <link href="http://kianli.com/atom.xml" rel="self"/>
   <link href="http://kianli.com/"/>
-  <updated>2018-11-28T01:11:20+08:00</updated>
+  <updated>2018-12-07T15:38:38+08:00</updated>
   <id>http://kianli.com/</id>
   <author>
     <name><![CDATA[]]></name>
     
   </author>
   <generator uri="http://www.mweb.im/">MWeb</generator>
+  
+  <entry>
+    <title type="html"><![CDATA[Host key verification failed的解决方法]]></title>
+    <link href="http://kianli.com/15441662089324.html"/>
+    <updated>2018-12-07T15:03:28+08:00</updated>
+    <id>http://kianli.com/15441662089324.html</id>
+    <content type="html"><![CDATA[
+<blockquote>
+<p>@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ <br/>
+WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED! @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@<br/>
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!<br/>
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!<br/>
+It is also possible that the RSA host key has just been changed.<br/>
+The fingerprint for the RSA key sent by the remote host is<br/>
+5c:9b:16:56:a6:cd:11:10:3a:cd:1b:a2:91:cd:e5:1c.<br/>
+Please contact your system administrator.<br/>
+Add correct host key in /Users/user/.ssh/known_hosts to get rid of this message.<br/>
+Offending key in /Users/user/.ssh/known_hosts:1<br/>
+RSA host key for server1.example.com has changed and you have requested strict checking.<br/>
+Host key verification failed.</p>
+</blockquote>
+
+<p>这是我昨晚在连接一台本来已经放弃了的AlphaRacks的VPS的时候 Terminal终端给的报错信息<br/>
+应该是我在后端重装了VPS系统之后，导致SSH公钥变化，所以之后才会出现这个报错</p>
+
+<p>解决的方法也很简单<br/>
+<code>ssh-keygen -R server-name<br/>
+ssh-keygen -R server.ip.addre.ss<br/>
+ssh-keygen -R 202.54.1.5<br/>
+ssh-keygen -R server1.example.com</code></p>
+
+<p>刚才又重装了一遍VPS的系统 在terminal里又走了一遍这个方法 验证下来应该是没有问题的<br/>
+<img src="http://ww1.sinaimg.cn/mw690/621370d5gy1fxy7wig2cjj21040oa0xm.jpg" alt=""/></p>
+
+<span id="more"></span><!-- more -->
+
+<p>不过为什么AlphaRacks在<br/>
+<a href="http://ping.pe">http://ping.pe</a> 的ping值还不至于很难看的情况下<br/>
+<img src="http://ww1.sinaimg.cn/mw690/621370d5gy1fxy7yqj8b2j20tg0oagrt.jpg" alt=""/></p>
+
+<p>只要是装 <a href="https://teddysun.com/486.html">https://teddysun.com/486.html</a> 的一键脚本就会根本用不了呢</p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Telegram群组无法访问的解决方法]]></title>
@@ -1455,126 +1499,6 @@ cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime<br/>
 <p>左边是微信支付，右边是支付宝支付 :-) ☕️</p>
 
 <p><center><font size="10"> ⬇️ </font></center> </p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[红米手机3折腾手记]]></title>
-    <link href="http://kianli.com/14587450200585.html"/>
-    <updated>2016-03-23T22:57:00+08:00</updated>
-    <id>http://kianli.com/14587450200585.html</id>
-    <content type="html"><![CDATA[
-<p><img src="http://ww2.sinaimg.cn/large/621370d5gw1f2g5r4s555j20jz0c0diw.jpg" alt=""/></p>
-
-<p>去年年底的时候，老爸和我说为什么之前我在微信上发给他的那些他孙子的照片和视频看不了了，是不是手机坏了，他在老家小镇上的超市里发现手机柜台里卖的华为某青春版不错，他准备要买。<br/>
-听到这里，我就在空的时候回去了趟。为什么之前他手机上看过的视频和照片看不了呢？ 他的红米1S的TF卡被人“拿走”了。 做这个事情的朋友，这实在是太缺德了... <br/>
-鉴于我老爹之前用的是MIUI系统，所以我觉得他去买华为某青春版学习成本太高，加上红米Note3评价还都不错，于是我就先首富家给他买了张TF卡放在红米1S里，然后安心开始参加雷猴王的每周耍猴大赛。<br/>
-既然给自己老爹买了台红米Note 3了，我为什么不也顺便买一台红米3来玩一下，这就是为什么我自己会买红米3的原因。</p>
-
-<h2 id="toc_0">关于红米3的TF卡扩展</h2>
-
-<p>常规的参数大家可以在小米官网上看到，这里有一点关于扩展卡的问题<br/>
-<a href="http://www.mi.com/hongmi3" target="_blank">红米手机3: 小米官网</a> 对红米手机3支持的TF卡容量进行了说明</p>
-
-<blockquote>
-<p><mark>最高支持128GB(VFAT格式) 扩展存储</mark></p>
-</blockquote>
-
-<p>其实我也还是好奇，究竟有多少人知道VFAT 这个格式呢？ 因为自己手上有一个64G的TF卡，由于不太了解这个格式，于是就在奶茶东上问了出售红米3手机的卖家，对方说不支持64G，最高只支持32G, 也就是说这款的格式应该是FAT32的</p>
-
-<p>不过幸好有一款比较厉害的软件，可以支持把大容量的TF卡转换为FAT 32格式</p>
-
-<blockquote>
-<p>软件名称： FAT32 Format<br/>
-下载链接：<a href="http://www.ridgecrop.demon.co.uk/guiformat.exe" target="_blank"><a href="http://www.ridgecrop.demon.co.uk/guiformat.exe">http://www.ridgecrop.demon.co.uk/guiformat.exe</a></a> （直接右键另存为)</p>
-</blockquote>
-
-<span id="more"></span><!-- more -->
-
-<p><img src="http://ww1.sinaimg.cn/large/621370d5gw1f2g3pen46sj20bo0dp0tn.jpg" alt=""/></p>
-
-<p><img src="http://ww1.sinaimg.cn/large/621370d5gw1f2g3q3swb8j20bk0dmjtf.jpg" alt=""/></p>
-
-<p><img src="http://ww2.sinaimg.cn/large/621370d5gw1f2g3rn8g7bj20nx0gu0xp.jpg" alt=""/></p>
-
-<h2 id="toc_1">关于解锁和第三方Recovery</h2>
-
-<h3 id="toc_2">解锁资格</h3>
-
-<p>记住，请在你的红米3到手之后第一时间在<a href="http://www.miui.com/unlock/" target="_blank"><a href="http://www.miui.com/unlock/">http://www.miui.com/unlock/</a></a>上申请解锁，从MIUI论坛里大家的分享来看，一般10天可以拿到解锁资格。</p>
-
-<h3 id="toc_3">开发版Rom</h3>
-
-<p>拿到解锁资格之后，你需要把你的红米3刷成开发版</p>
-
-<blockquote>
-<p><mark>红米3开发版刷机教程</mark>: <a href="http://www.miui.com/shuaji-393.html" target="_blank"><a href="http://www.miui.com/shuaji-393.html">http://www.miui.com/shuaji-393.html</a></a></p>
-</blockquote>
-
-<hr/>
-
-<h3 id="toc_4">解锁Bootloader的注意点</h3>
-
-<p>1: 刷完开发版之后用你的小米账号登录手机 开启云服务 记得要开启下寻找手机的功能<br/>
-2: 关机之后同时按下音量键向下和电源键进入Flashboot模式</p>
-
-<hr/>
-
-<h3 id="toc_5">安装第三方Recovery</h3>
-
-<p><a href="http://blog.cofface.com/archives/1775.html" target="_blank">Cofface汉化的TWRP Recovery</a> 一直在用 非常不错 点开链接可以看到Recovery的下载和安装步骤</p>
-
-<hr/>
-
-<h2 id="toc_6">关于被广告充斥的MIUI</h2>
-
-<p>的确很头疼，国际版的MIUI据说是没有这些问题的<br/>
-当然也可以刷其他的第三方Rom, 基本都是移植版，有Flyme的，也有CM 12.1的<br/>
-其中我自己用过且个人非常主观喜欢的就是Cofface移植的CM12.1, 这个Rom没有任何预制的国产app, 非常纯净。</p>
-
-<p><a href="http://blog.cofface.com/archives/1807.html" target="_blank">【cofface】红米3全网通 CM12.1 5.1.1 ROM发布更新20160330<br/>
-</a> <br/>
-<mark>视频展示</mark><br/>
-<iframe frameborder="0" width="480" height="318" src="http://v.qq.com/iframe/player.html?vid=m0191v1pdkb&tiny=0&auto=0" allowfullscreen></iframe></p>
-
-<hr/>
-
-<h2 id="toc_7">关于移植版CM12.1/Ported CM 12.1上安装Xposed的问题</h2>
-
-<p>1: 安装Xposed安装器Xposed Installer: </p>
-
-<blockquote>
-<p><a href="http://vdisk.weibo.com/s/d9uWy6lxNN3k7" target="_blank"><a href="http://vdisk.weibo.com/s/d9uWy6lxNN3k7">http://vdisk.weibo.com/s/d9uWy6lxNN3k7</a><br/>
-</a> </p>
-</blockquote>
-
-<p>apk文件 直接安装</p>
-
-<p>2: 安装框架/Xposed Framework</p>
-
-<blockquote>
-<p><a href="http://vdisk.weibo.com/s/d9uWy6lxNN3H3" target="_blank"><a href="http://vdisk.weibo.com/s/d9uWy6lxNN3H3">http://vdisk.weibo.com/s/d9uWy6lxNN3H3</a><br/>
-</a> </p>
-</blockquote>
-
-<p>通过Recovery刷入即可</p>
-
-<p><mark>P.S 如需要卸载Xposed的话，你可能需要这个包</mark>：</p>
-
-<blockquote>
-<p><a href="http://vdisk.weibo.com/s/d9uWy6lxNN3Hi"target="_blank"><a href="http://vdisk.weibo.com/s/d9uWy6lxNN3Hi">http://vdisk.weibo.com/s/d9uWy6lxNN3Hi</a><br/>
-</a></p>
-</blockquote>
-
-<p><mark>不过请相信我，一旦你用上了Xposed了 你就绝对不会去卸载了</mark></p>
-
-<p>酷安上的xposed应用插件：</p>
-
-<blockquote>
-<p><a href="http://coolapk.com/apk/search/?q=xposed"target="_blank"><a href="http://coolapk.com/apk/search/?q=xposed">http://coolapk.com/apk/search/?q=xposed</a><br/>
-</a></p>
-</blockquote>
 
 ]]></content>
   </entry>
