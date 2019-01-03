@@ -4,13 +4,55 @@
   <title><![CDATA[Kian的自留地]]></title>
   <link href="http://kianli.com/atom.xml" rel="self"/>
   <link href="http://kianli.com/"/>
-  <updated>2018-12-31T02:20:03+08:00</updated>
+  <updated>2019-01-03T11:15:48+08:00</updated>
   <id>http://kianli.com/</id>
   <author>
     <name><![CDATA[]]></name>
     
   </author>
   <generator uri="http://www.mweb.im/">MWeb</generator>
+  
+  <entry>
+    <title type="html"><![CDATA[SkySilk半年免费VPS]]></title>
+    <link href="http://kianli.com/15464802026254.html"/>
+    <updated>2019-01-03T09:50:02+08:00</updated>
+    <id>http://kianli.com/15464802026254.html</id>
+    <content type="html"><![CDATA[
+<p>最近比较火的VPS商家要算SkySilk了，他们最近为了吸引新用户，推出了注册账户并绑定支付方式后，免费得10刀Credit的活动，另外，在facebook和twitter上分别点赞和关注一下，还可以另外获得200点Sky Points，可以用来换取额外的2美刀Credit。12刀免费得到的Credit，创建一个月付2刀的VPS，即可免费薅半年的羊毛了。好吧，下面介绍一下这家SkySilk免费美刀领取攻略和月付2刀的VPS。</p>
+
+<h3 id="toc_0">注册账号</h3>
+
+<p>SkySilk提供邀请注册机制，通过邀请链接注册的新用户，绑定支付方式，即可获得10刀。不通过邀请链接注册是不行的。</p>
+
+<p>我的邀请链接：<a href="https://www.skysilk.com/ref/cYcaI4bkzj">https://www.skysilk.com/ref/cYcaI4bkzj</a></p>
+
+<p>注册过后，在My Account里通过Paypal或者信用卡来绑定支付方式，即可获得10刀的Credit。10刀的奖励金到账就可以去创建VPS了。</p>
+
+<p>同样在My Account的页面中，分别还可以在Facebook上点赞和关注Twitter官方账号，各获得100点Sky Points<br/>
+<img src="http://ww1.sinaimg.cn/mw690/621370d5gy1fyt7fmddhcj21j20qkjwp.jpg" alt=""/></p>
+
+<p>200点的Sky Point到手之后在Rewards里直接再兑换2刀的奖励金。建议在换到奖励金之后在Twitter取消关注／Facebook取消like<br/>
+这样，12刀到手 看到SkySilk的两个方案里方案一是2刀／月，也就是可以免费用半年了<br/>
+<img src="http://ww1.sinaimg.cn/thumbnail/621370d5gy1fyt7qnl28cj216a146qcr.jpg" alt=""/></p>
+
+<p>我选的是LA洛杉矶的机房 在结算页面看到的价格竟然还有折扣 折后是1.62刀／月<br/>
+<img src="http://ww1.sinaimg.cn/mw690/621370d5gy1fyt7g3ojf4j21ko0y27aa.jpg" alt=""/></p>
+
+<span id="more"></span><!-- more -->
+
+<p>这台免费半年的VPS配置为3Gb/s的DDos防护，500Mbps带宽，512MB内存，1个虚拟CPU，10GB的SSD，500GB流量<br/>
+<img src="http://ww1.sinaimg.cn/mw690/621370d5gy1fyt7gj0f8vj21j80y6qb1.jpg" alt=""/></p>
+
+<p>至于最为重要的访问速度我用<a href="https://ping.pe">https://ping.pe</a> 测了一下 除了安徽的中国移动 还是堪用的<br/>
+就我使用的上海中国电信来看应该是没有太大问题的<br/>
+<img src="http://ww1.sinaimg.cn/mw690/621370d5gy1fyt7wofzjqj21nk0fm44e.jpg" alt=""/></p>
+
+<p>据推特某VPS大佬测试64.52开头的ip段可以看Netflix 实在是惊喜！<br/>
+别犹豫了 赶紧上车吧！<br/>
+<a href="https://www.skysilk.com/ref/cYcaI4bkzj">https://www.skysilk.com/ref/cYcaI4bkzj</a></p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[GoodReads: Best Books of 2018]]></title>
@@ -29,6 +71,12 @@
 <a href="https://share.weiyun.com/5NExgFd">https://share.weiyun.com/5NExgFd</a>  <code>密码：ffxuq7</code><br/>
 微软onedrive网盘链接：<br/>
 <a href="https://1drv.ms/f/s!Au_XHJWxBlOKgXBGqWySACS0rkVL">https://1drv.ms/f/s!Au_XHJWxBlOKgXBGqWySACS0rkVL</a></p>
+
+<p>1.基于酷安@buhonghao的修改版。2.修改默认选项若干，修改布局若干，修改主题配色已适用于墨水瓶，兼容其他手机。<br/>
+3.去除分享，（新浪微博授权老是失败，据说是签名验证问题，搞不定，和谐掉算了。）<br/>
+4.修改包名为Dkreadec，小米手机MIUI可以共存安装，<br/>
+5.修改软件名为“阅读”，<br/>
+<a href="https://www.lanzous.com/i1pwldc">https://www.lanzous.com/i1pwldc</a></p>
 
 ]]></content>
   </entry>
@@ -1626,47 +1674,6 @@ The pic above was uploaded for people who can&#39;t access twitter.</mark></li>
 <hr/>
 
 <p>对这个帐号感兴趣的话 你可以点击<a href="https://twitter.com/Brilliant_Ads"target="_blank><a href="https://twitter.com/Brilliant_Ads">https://twitter.com/Brilliant_Ads</a></a> 去follow他</p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[剑桥雅思英语真题1-11]]></title>
-    <link href="http://kianli.com/14614023682434.html"/>
-    <updated>2016-04-23T17:06:08+08:00</updated>
-    <id>http://kianli.com/14614023682434.html</id>
-    <content type="html"><![CDATA[
-<p><img src="http://ooo.0o0.ooo/2016/04/23/571b3c3c857a4.jpg" alt=""/></p>
-
-<h3 id="toc_0">剑1至剑10</h3>
-
-<blockquote>
-<p>雅思英语考试（IELTS, International English Language Testing System）是很多人已经参加或者将要参加的一门英语考试，尤其是留学申请欧美大学时，几乎是一份必须的英语成绩证明。英国连移民、工作签证都需要雅思成绩。<br/>
-而准备雅思考试的技巧其实不外乎研究雅思考试的真题。雅思考试的出题方：剑桥大学，每隔一段时间就会放出一本剑桥雅思全真试题参考书（Cambridge IELTS Student’s Book with Answers Official Examination Papers from University of Cambridge ESOL Examinations），其试题基本上是过去雅思考试中出现过的真题，不过真题中出现过的题目在以后的雅思考试是不会出现的。但是剑桥雅思真题系列参考书的重要性是绝对不能忽视的。<br/>
-从1996年推出的剑桥雅思1到2014年推出的剑桥雅思10，每本书包含4套完整真题，听力、阅读、写作、口语（其实是4套学术加2套普通培训），共36套题，真要好好做透它，考个6分基本上不成问题。我以前也考过雅思，就是做了剑桥4到剑桥9真题，从未上过任何辅导班，倒也考了6.5分。我女朋友在同样的情况下考了7分，差0.5分任一单项就可以达到7.5分。即使只是为了学习英语，剑桥雅思全真试题也是一份非常优秀的资料，它是剑桥大学语言专家们的研究成果。<br/>
-网上可以下载到所有已出的剑桥雅思真题（但几乎100%侵犯版权）。不过我发现，即使是这些侵犯版权的资料，居然各家网站都打上自己的水印，有的扫描不清晰，甚至有的加入数字证书、密码，导致PDF文件无法打印。我无法理解，既然这些资料本来就是侵权的，凭什么还要拿过来做些手脚？束缚这些资料为考生服务？<br/>
-我好不容易找齐了目前最清晰、可打印、无密码、无数字证书的剑桥雅思真题1-10系列（另含一套英国文化教育协会（British Council）的IELTS完整样题），分门别类，配备清晰的PDF文本和MP3听力音频，也算方便千千万万的雅思考生，避免每个人为找到满意的剑桥雅思英语真题而浪费时间，更看不惯那些用侵权资料谋取私利的行为。</p>
-</blockquote>
-
-<span id="more"></span><!-- more -->
-
-<ul>
-<li>剑桥雅思英语考试真题1, 2, 3, 4, 5, 6, 7, 8 &amp; 9（PDF文本+MP3听力）下载链接（约592MB）–- <a href="https://www.dropbox.com/s/vpqwd91no7533g4/IELTS-1-9%20MP3%20Audio%20PDF%20Book%20Checked.zip?dl=0"target="_blank">国外Dropbox下载</a>，<a href="http://pan.baidu.com/s/1gd7XlQF"target="_blank">国内百度下载</a> （均经过人工仔细检验，清晰完整、无病毒、无密码、可打印)。</li>
-<li>剑桥雅思英语考试真题10(PDF文本, 约53MB, 很清晰–<a href="http://pan.baidu.com/s/1bnbilzD"target="_blank">国内百度网盘链接</a></li>
-<li>剑桥雅思精讲456789–<a href="http://pan.baidu.com/s/1dDnp2MX"target="_blank">国内百度网盘链接</a></li>
-</ul>
-
-<p><mark>以上资源经原发布者<a href="http://lukang.me/2015/ielts-cambridge.html"target="_blank">Kang Lu&#39;s Blog</a>允许之后发布在本博客中，原文在<a href="http://lukang.me/2015/ielts-cambridge.html"target="_blank">Kang Lu&#39;s Blog</a> 上</mark></p>
-
-<h1 id="toc_1"></h1>
-
-<h3 id="toc_2">剑11</h3>
-
-<p>剑桥雅思真题11是今年最新发布的，资源信息收集自网络</p>
-
-<ul>
-<li>剑桥雅思真题11 - <a href="http://pan.baidu.com/s/1dE7wkk5"target="_blank">国内百度网盘链接</a></li>
-</ul>
 
 ]]></content>
   </entry>
